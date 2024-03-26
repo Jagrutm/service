@@ -1,0 +1,119 @@
+name: dockercompose9718636070409992826
+services:
+  agencyservice.api:
+    build:
+      context: C:\ContisGit\BankingMicroservice\Banking_services\src
+      dockerfile: services/agencyService/AgencyService.Api/Dockerfile
+    container_name: agencyservice.api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:DefaultConnection: Server=localhost/SQLEXPRESS;Database=AgencyDB;Trusted_Connection=True;MultipleActiveResultSets=true;
+      DOTNET_RUNNING_IN_CONTAINER: "true"
+      ElasticConfiguration:Uri: http://localhost:9200
+    image: agencyservice-api
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6101"
+      protocol: tcp
+  dynamodb:
+    command:
+    - -jar
+    - DynamoDBLocal.jar
+    - -sharedDb
+    - -dbPath
+    - /home/dynamodblocal/data/
+    container_name: dynamodb-shared-api
+    hostname: dynamodb
+    image: amazon/dynamodb-local
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8000
+      published: "8000"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: C:\ContisGit\BankingMicroservice\Banking_services\src\my-dynamodb-data
+      target: /home/dynamodblocal/data
+      bind:
+        create_host_path: true
+  elasticsearch:
+    container_name: elasticsearch
+    environment:
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
+      discovery.type: single-node
+      xpack.monitoring.enabled: "true"
+      xpack.watcher.enabled: "false"
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.16.3
+    networks:
+      elastic: null
+    ports:
+    - mode: ingress
+      target: 9200
+      published: "9200"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: elasticsearch-data
+      target: /usr/share/elasticsearch/data
+      volume: {}
+  kibana:
+    container_name: kibana
+    depends_on:
+      elasticsearch:
+        condition: service_started
+    environment:
+      ELASTICSEARCH_URL: http://localhost:9200
+      xpack.actions.enabledActionTypes: '[*]'
+      xpack.actions.whitelistedHosts: '[*]'
+      xpack.encryptedSavedObjects.encryptionKey: kibana--kibana--kibana--kibana--
+    image: docker.elastic.co/kibana/kibana:7.16.3
+    networks:
+      elastic: null
+    ports:
+    - mode: ingress
+      target: 5601
+      published: "5601"
+      protocol: tcp
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    networks:
+      rabbitmq_go_net: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\jagrut.bhavsar\.docker-conf\rabbitmq\data
+      target: /var/lib/rabbitmq
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\jagrut.bhavsar\.docker-conf\rabbitmq\log
+      target: /var/log/rabbitmq
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose9718636070409992826_default
+  elastic:
+    name: dockercompose9718636070409992826_elastic
+    driver: bridge
+  rabbitmq_go_net:
+    name: dockercompose9718636070409992826_rabbitmq_go_net
+    driver: bridge
+volumes:
+  elasticsearch-data:
+    name: dockercompose9718636070409992826_elasticsearch-data

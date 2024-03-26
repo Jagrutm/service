@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="0" xml:space="preserve">
+    <value>No error occured - The authentication was successful</value>
+  </data>
+  <data name="1" xml:space="preserve">
+    <value>Daily limit unlimited means weekly and monthly limit must be unlimited</value>
+  </data>
+  <data name="2" xml:space="preserve">
+    <value>Weekly limit unlimited means monthly limit also unlimited</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>Password changed. Please use your new password the next time you login.</value>
+  </data>
+  <data name="4" xml:space="preserve">
+    <value>Please enter your current and new passwords</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>Security code changed successfully. Please use your new security code next time.</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>Please enter new security code</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>Delete?</value>
+  </data>
+  <data name="8" xml:space="preserve">
+    <value>Please select photo to be uploaded</value>
+  </data>
+  <data name="9" xml:space="preserve">
+    <value>Please select an address</value>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>Please specify flat number or building name/number</value>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>Please enter street</value>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>Please enter town or district</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>Please enter sort code</value>
+  </data>
+  <data name="14" xml:space="preserve">
+    <value>Remove attachment?</value>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>The selected contact doesn't have a mobile number listed.</value>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>Providing no criteria will return *all* of the {0} (this may take considerable time). Continue?</value>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>Please enter a number</value>
+  </data>
+  <data name="18" xml:space="preserve">
+    <value>Providing no criteria will return *all* data (this may take considerable time). Continue?</value>
+  </data>
+  <data name="19" xml:space="preserve">
+    <value>Please input POP3 server, username and password.</value>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>Save changes?</value>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>Do you really want to quit?</value>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>Please enter answer</value>
+  </data>
+  <data name="23" xml:space="preserve">
+    <value>Please enter the authorisation code</value>
+  </data>
+  <data name="24" xml:space="preserve">
+    <value>Please select how long you have lived here</value>
+  </data>
+  <data name="25" xml:space="preserve">
+    <value>Primary manager must be specified</value>
+  </data>
+  <data name="26" xml:space="preserve">
+    <value>Secondary manager must be specified</value>
+  </data>
+  <data name="27" xml:space="preserve">
+    <value>Password reset for user : </value>
+  </data>
+  <data name="28" xml:space="preserve">
+    <value>PIN reset successfully.</value>
+  </data>
+  <data name="29" xml:space="preserve">
+    <value>Mail(s) sent successfully</value>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>Exported successfully</value>
+  </data>
+  <data name="31" xml:space="preserve">
+    <value>Export failed</value>
+  </data>
+  <data name="32" xml:space="preserve">
+    <value>Please select only image files.</value>
+  </data>
+  <data name="33" xml:space="preserve">
+    <value>File(s) uploaded.</value>
+  </data>
+  <data name="34" xml:space="preserve">
+    <value>Company {0} already exists, would you like to relate this contact to the existing account?</value>
+  </data>
+  <data name="35" xml:space="preserve">
+    <value>Charge already refunded</value>
+  </data>
+  <data name="36" xml:space="preserve">
+    <value>Privileges will affect on next login</value>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>Resetup?</value>
+  </data>
+  <data name="38" xml:space="preserve">
+    <value>Set primary?</value>
+  </data>
+  <data name="39" xml:space="preserve">
+    <value>Make bank valid?</value>
+  </data>
+  <data name="40" xml:space="preserve">
+    <value>Close?</value>
+  </data>
+  <data name="41" xml:space="preserve">
+    <value>Print this whole grid?</value>
+  </data>
+  <data name="42" xml:space="preserve">
+    <value>Delete photo?</value>
+  </data>
+  <data name="43" xml:space="preserve">
+    <value>No payment data found for this file.</value>
+  </data>
+  <data name="44" xml:space="preserve">
+    <value>View all communications including notifications? (this may take considerable time)</value>
+  </data>
+  <data name="45" xml:space="preserve">
+    <value>Reset password?</value>
+  </data>
+  <data name="46" xml:space="preserve">
+    <value>Reset PIN?</value>
+  </data>
+  <data name="47" xml:space="preserve">
+    <value>Only active user can offer new services</value>
+  </data>
+  <data name="48" xml:space="preserve">
+    <value>Abort downloading?</value>
+  </data>
+  <data name="49" xml:space="preserve">
+    <value>Sorry, there is no account for auto payment.</value>
+  </data>
+  <data name="50" xml:space="preserve">
+    <value>Sorry, there is no account to pay.</value>
+  </data>
+  <data name="51" xml:space="preserve">
+    <value>Re-download file?</value>
+  </data>
+  <data name="52" xml:space="preserve">
+    <value>Re-process file?</value>
+  </data>
+  <data name="53" xml:space="preserve">
+    <value>Transfer complete.</value>
+  </data>
+  <data name="54" xml:space="preserve">
+    <value>This transaction would exceed your daily limit.</value>
+  </data>
+  <data name="55" xml:space="preserve">
+    <value>This transaction would exceed your weekly limit.</value>
+  </data>
+  <data name="56" xml:space="preserve">
+    <value>This transaction would exceed your monthly limit.</value>
+  </data>
+  <data name="57" xml:space="preserve">
+    <value>No transactions have been made.</value>
+  </data>
+  <data name="58" xml:space="preserve">
+    <value>To help you quickly identify any fraudulant activity, your last 2 transactions are listed below.</value>
+  </data>
+  <data name="1000" xml:space="preserve">
+    <value>Login failed. Passwords are CaSe sensitive.</value>
+  </data>
+  <data name="1001" xml:space="preserve">
+    <value>Security code does not match</value>
+  </data>
+  <data name="1002" xml:space="preserve">
+    <value>Hash does not match with the purchase request data</value>
+  </data>
+  <data name="1003" xml:space="preserve">
+    <value>Authorisation code not found</value>
+  </data>
+  <data name="1004" xml:space="preserve">
+    <value>Purchase reference not found</value>
+  </data>
+  <data name="1005" xml:space="preserve">
+    <value>Customer not found</value>
+  </data>
+  <data name="1006" xml:space="preserve">
+    <value>Merchant not Found</value>
+  </data>
+  <data name="1007" xml:space="preserve">
+    <value>Service not found.</value>
+  </data>
+  <data name="1008" xml:space="preserve">
+    <value>Invalid service code</value>
+  </data>
+  <data name="1009" xml:space="preserve">
+    <value>Authentication failed. Please check your email address and security code.</value>
+  </data>
+  <data name="1010" xml:space="preserve">
+    <value>Purchase key not supplied or is invalid</value>
+  </data>
+  <data name="1011" xml:space="preserve">
+    <value>Authorisation code not supplied or is invalid</value>
+  </data>
+  <data name="1012" xml:space="preserve">
+    <value>Please access webservice through https protocol</value>
+  </data>
+  <data name="1013" xml:space="preserve">
+    <value>DB already started</value>
+  </data>
+  <data name="1014" xml:space="preserve">
+    <value>DB not started</value>
+  </data>
+  <data name="1015" xml:space="preserve">
+    <value>Must be in a transaction</value>
+  </data>
+  <data name="1016" xml:space="preserve">
+    <value>Already in transaction</value>
+  </data>
+  <data name="1017" xml:space="preserve">
+    <value>No open connection</value>
+  </data>
+  <data name="1018" xml:space="preserve">
+    <value>The specified index was not found</value>
+  </data>
+  <data name="1019" xml:space="preserve">
+    <value>Transaction rate detail can not be deleted.</value>
+  </data>
+  <data name="1020" xml:space="preserve">
+    <value>Can not delete an email address which has already been deleted</value>
+  </data>
+  <data name="1021" xml:space="preserve">
+    <value>Can not delete, email address in use.</value>
+  </data>
+  <data name="1022" xml:space="preserve">
+    <value>You can not delete a trade name which has already been deleted</value>
+  </data>
+  <data name="1023" xml:space="preserve">
+    <value>There was a problem deleting your photo.</value>
+  </data>
+  <data name="1024" xml:space="preserve">
+    <value>{0} is already deleted</value>
+  </data>
+  <data name="1025" xml:space="preserve">
+    <value>You can not delete a bank detail which is assigned to existing account or standing orders</value>
+  </data>
+  <data name="1026" xml:space="preserve">
+    <value>Invalid site address</value>
+  </data>
+  <data name="1027" xml:space="preserve">
+    <value>Invalid Name</value>
+  </data>
+  <data name="1028" xml:space="preserve">
+    <value>The new password and confirm password fields do not match</value>
+  </data>
+  <data name="1029" xml:space="preserve">
+    <value>Invalid current password</value>
+  </data>
+  <data name="1030" xml:space="preserve">
+    <value>The new security code and confirm security code fields do not match</value>
+  </data>
+  <data name="1031" xml:space="preserve">
+    <value>Sorry, you can not delete this address as it is in use.</value>
+  </data>
+  <data name="1032" xml:space="preserve">
+    <value>Please provide right answer for your security question.</value>
+  </data>
+  <data name="1033" xml:space="preserve">
+    <value>Invalid password.</value>
+  </data>
+  <data name="1034" xml:space="preserve">
+    <value>Invalid date</value>
+  </data>
+  <data name="1035" xml:space="preserve">
+    <value>'Current recipient' and 'move to recipient' should be different</value>
+  </data>
+  <data name="1036" xml:space="preserve">
+    <value>'Move to recipient' and 'move to sender' should be different</value>
+  </data>
+  <data name="1037" xml:space="preserve">
+    <value>'Current recipient' and 'move to sender' should be different</value>
+  </data>
+  <data name="1038" xml:space="preserve">
+    <value>'Current sender' and 'move to sender' should be different</value>
+  </data>
+  <data name="1039" xml:space="preserve">
+    <value>'Move to recipient' and 'current sender' should be different</value>
+  </data>
+  <data name="1040" xml:space="preserve">
+    <value>Sent / Received date From date cannot be greater than the 'to' date</value>
+  </data>
+  <data name="1041" xml:space="preserve">
+    <value>'Deal with' date 'from' date can not be greater than 'to' date</value>
+  </data>
+  <data name="1042" xml:space="preserve">
+    <value>Invalid email address</value>
+  </data>
+  <data name="1043" xml:space="preserve">
+    <value>Invalid authorisation code or authorisation code has expired</value>
+  </data>
+  <data name="1044" xml:space="preserve">
+    <value>not found.</value>
+  </data>
+  <data name="1045" xml:space="preserve">
+    <value>Invalid username or password</value>
+  </data>
+  <data name="1046" xml:space="preserve">
+    <value>Passwords do not match. Please re-enter your passwords.</value>
+  </data>
+  <data name="1047" xml:space="preserve">
+    <value>Provide unique email address.</value>
+  </data>
+  <data name="1048" xml:space="preserve">
+    <value>User already exists. Please provide a different email address.</value>
+  </data>
+  <data name="1049" xml:space="preserve">
+    <value>Already used in other email address.</value>
+  </data>
+  <data name="1050" xml:space="preserve">
+    <value>Already used in email address.</value>
+  </data>
+  <data name="1051" xml:space="preserve">
+    <value>Already exists, provide different name.</value>
+  </data>
+  <data name="1052" xml:space="preserve">
+    <value>Data error</value>
+  </data>
+  <data name="1053" xml:space="preserve">
+    <value>Invalid authorisation code supplied.</value>
+  </data>
+  <data name="1054" xml:space="preserve">
+    <value>File is not opened</value>
+  </data>
+  <data name="1055" xml:space="preserve">
+    <value>TOTAL AMOUNT row is not found in the file.</value>
+  </data>
+  <data name="1056" xml:space="preserve">
+    <value>Hashcode key does not match with the signature file.</value>
+  </data>
+  <data name="1057" xml:space="preserve">
+    <value>User details not found for user ID </value>
+  </data>
+  <data name="1058" xml:space="preserve">
+    <value>Array value not proper. There is some problem with CredECardFormat file.</value>
+  </data>
+  <data name="1059" xml:space="preserve">
+    <value>Username not found. Please enter valid username.</value>
+  </data>
+  <data name="1060" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="1061" xml:space="preserve">
+    <value>Timeout string in configuration is in wrong format.  Should be an integer.</value>
+  </data>
+  <data name="2000" xml:space="preserve">
+    <value>The account did not have sufficient funds.</value>
+  </data>
+  <data name="2001" xml:space="preserve">
+    <value>Account blocked due to more than {0} failed login attempts. Please contact customer services on {1} or {2}.</value>
+  </data>
+  <data name="2002" xml:space="preserve">
+    <value>Customer status not live</value>
+  </data>
+  <data name="2003" xml:space="preserve">
+    <value>Merchant status not live</value>
+  </data>
+  <data name="2004" xml:space="preserve">
+    <value>Merchant account status is not Live</value>
+  </data>
+  <data name="2005" xml:space="preserve">
+    <value>No agreement is found for the merchant </value>
+  </data>
+  <data name="2006" xml:space="preserve">
+    <value>This reference number has been already used</value>
+  </data>
+  <data name="2007" xml:space="preserve">
+    <value>Reserved amount is not approved by the customer</value>
+  </data>
+  <data name="2008" xml:space="preserve">
+    <value>Reserved amount is not sufficient</value>
+  </data>
+  <data name="2009" xml:space="preserve">
+    <value>Service is not live.</value>
+  </data>
+  <data name="2010" xml:space="preserve">
+    <value>Authorisation code has expired</value>
+  </data>
+  <data name="2011" xml:space="preserve">
+    <value>Customer account is not Live</value>
+  </data>
+  <data name="2012" xml:space="preserve">
+    <value>You have already registered for {0}</value>
+  </data>
+  <data name="2013" xml:space="preserve">
+    <value>Credit is not enough for accessing this service.</value>
+  </data>
+  <data name="2014" xml:space="preserve">
+    <value>Customer is blocked due to {0} failed security code attempts</value>
+  </data>
+  <data name="2015" xml:space="preserve">
+    <value>Command passed was null</value>
+  </data>
+  <data name="2016" xml:space="preserve">
+    <value>Proposal {0} not agreed</value>
+  </data>
+  <data name="2017" xml:space="preserve">
+    <value>Account ID for this return is not same as logged in user account ID.</value>
+  </data>
+  <data name="2018" xml:space="preserve">
+    <value>Account ID for this charge is not same as logged in account ID.</value>
+  </data>
+  <data name="2019" xml:space="preserve">
+    <value>Account ID for charge return is not same as logged in account ID.</value>
+  </data>
+  <data name="2020" xml:space="preserve">
+    <value>Account ID for this purchase is not same as logged in user account ID.</value>
+  </data>
+  <data name="2021" xml:space="preserve">
+    <value>Account ID for this transaction is not same as logged in user account ID.</value>
+  </data>
+  <data name="2022" xml:space="preserve">
+    <value>Payee and Payer accounts are same </value>
+  </data>
+  <data name="2023" xml:space="preserve">
+    <value>The selected account does not match the user.</value>
+  </data>
+  <data name="2024" xml:space="preserve">
+    <value>Login was not successful, DO NOT CALL "SuccessfulLogin" function unless login is successful</value>
+  </data>
+  <data name="2025" xml:space="preserve">
+    <value>AOPOP3 Message object is returning null value for from address</value>
+  </data>
+  <data name="2026" xml:space="preserve">
+    <value>User is inactive. Please contact credEcard customer services on {0} for assistance</value>
+  </data>
+  <data name="2027" xml:space="preserve">
+    <value>Please select valid image file.</value>
+  </data>
+  <data name="2028" xml:space="preserve">
+    <value>Invalid Image.</value>
+  </data>
+  <data name="2029" xml:space="preserve">
+    <value>From address is not exist in mapping for </value>
+  </data>
+  <data name="2030" xml:space="preserve">
+    <value>Invalid email storage path</value>
+  </data>
+  <data name="2031" xml:space="preserve">
+    <value>Please check that the service code you supplied is correct or proper page is called. </value>
+  </data>
+  <data name="2032" xml:space="preserve">
+    <value>Maximum return quantity should be </value>
+  </data>
+  <data name="2033" xml:space="preserve">
+    <value>Account not active</value>
+  </data>
+  <data name="2034" xml:space="preserve">
+    <value>is not enough.</value>
+  </data>
+  <data name="2035" xml:space="preserve">
+    <value>File access error</value>
+  </data>
+  <data name="2036" xml:space="preserve">
+    <value>An error prevented your current layout settings from being saved</value>
+  </data>
+  <data name="2037" xml:space="preserve">
+    <value>Filename not valid.</value>
+  </data>
+  <data name="2038" xml:space="preserve">
+    <value>Select atleast one item to return</value>
+  </data>
+  <data name="2039" xml:space="preserve">
+    <value>Folder path length exceeds the limit</value>
+  </data>
+  <data name="2040" xml:space="preserve">
+    <value>File length exceeds the limit</value>
+  </data>
+  <data name="2041" xml:space="preserve">
+    <value>Register module</value>
+  </data>
+  <data name="2042" xml:space="preserve">
+    <value>No printer installed, please contact the system administrator</value>
+  </data>
+  <data name="2043" xml:space="preserve">
+    <value>An error prevented your layout settings from being loaded, using default settings</value>
+  </data>
+  <data name="2044" xml:space="preserve">
+    <value>Directory not found.</value>
+  </data>
+  <data name="2045" xml:space="preserve">
+    <value>File(s) not found at specified location.</value>
+  </data>
+  <data name="2046" xml:space="preserve">
+    <value>Login failed</value>
+  </data>
+  <data name="2047" xml:space="preserve">
+    <value>Unable to transform in HTML, invalid style sheet format.</value>
+  </data>
+  <data name="2048" xml:space="preserve">
+    <value>Error while uploading: </value>
+  </data>
+  <data name="2049" xml:space="preserve">
+    <value>File not found.</value>
+  </data>
+  <data name="2050" xml:space="preserve">
+    <value>Row sequence not proper</value>
+  </data>
+  <data name="2051" xml:space="preserve">
+    <value>Provider's module {0} is not as per credEcard supported format.</value>
+  </data>
+  <data name="2052" xml:space="preserve">
+    <value>Provider's few support files are missing.</value>
+  </data>
+  <data name="2053" xml:space="preserve">
+    <value>Provider's support file does not exist or not downloaded.</value>
+  </data>
+  <data name="2054" xml:space="preserve">
+    <value>Account number {0} is not live</value>
+  </data>
+  <data name="2055" xml:space="preserve">
+    <value>Account number {0} do not have sufficient funds.</value>
+  </data>
+  <data name="2056" xml:space="preserve">
+    <value>Unable to add data in communication and job emailer.</value>
+  </data>
+  <data name="2057" xml:space="preserve">
+    <value>Customer is not authorised to login.</value>
+  </data>
+  <data name="3000" xml:space="preserve">
+    <value>Account not found - the account specified does not exist on the credEcard system</value>
+  </data>
+  <data name="3001" xml:space="preserve">
+    <value>Account suspended - The account is suspended</value>
+  </data>
+  <data name="3002" xml:space="preserve">
+    <value>has been closed</value>
+  </data>
+  <data name="3003" xml:space="preserve">
+    <value>Customer account not found</value>
+  </data>
+  <data name="3004" xml:space="preserve">
+    <value>No provider is available</value>
+  </data>
+  <data name="3005" xml:space="preserve">
+    <value>User has not registered with {0}</value>
+  </data>
+  <data name="3006" xml:space="preserve">
+    <value>Please check that correct parameter is supplied or correct page is called.</value>
+  </data>
+  <data name="3007" xml:space="preserve">
+    <value>Account suspended. Please contact customer services on {0}.</value>
+  </data>
+  <data name="3008" xml:space="preserve">
+    <value>Authorisation code generation has failed.</value>
+  </data>
+  <data name="3009" xml:space="preserve">
+    <value>You have already made payment for this purchase.</value>
+  </data>
+  <data name="3010" xml:space="preserve">
+    <value>You have cancelled this purchase.</value>
+  </data>
+  <data name="3011" xml:space="preserve">
+    <value>You have already processed this purchase.</value>
+  </data>
+  <data name="3012" xml:space="preserve">
+    <value>3 Attempts for Authorisation code already done.</value>
+  </data>
+  <data name="3013" xml:space="preserve">
+    <value>Attachment file not found</value>
+  </data>
+  <data name="3014" xml:space="preserve">
+    <value>Config file not found</value>
+  </data>
+  <data name="3015" xml:space="preserve">
+    <value>Username does not exist</value>
+  </data>
+  <data name="3016" xml:space="preserve">
+    <value>Failed to add attachment</value>
+  </data>
+  <data name="3017" xml:space="preserve">
+    <value>Four people are already registered at the specified address. No more registrations are allowed at this address now. Please specify a different address.</value>
+  </data>
+  <data name="3018" xml:space="preserve">
+    <value>Someone of that name is already registered at the specified address. You can not sign up more than once. Please specify a different address.</value>
+  </data>
+  <data name="3019" xml:space="preserve">
+    <value>Two people with the last name you had given are already registered at the address specified. No more registrations are allowed at this address with same last name now. Please specify a different address.</value>
+  </data>
+  <data name="3020" xml:space="preserve">
+    <value>Please enter your postcode</value>
+  </data>
+  <data name="3021" xml:space="preserve">
+    <value>File already exists</value>
+  </data>
+  <data name="3022" xml:space="preserve">
+    <value>You can not move communication to the unknown user.</value>
+  </data>
+  <data name="3023" xml:space="preserve">
+    <value>You can not reassign move to the unknown user.</value>
+  </data>
+  <data name="3024" xml:space="preserve">
+    <value>Every answer must be different.</value>
+  </data>
+  <data name="3025" xml:space="preserve">
+    <value>The postcode you entered has not been found. Please enter your postcode again.</value>
+  </data>
+  <data name="3026" xml:space="preserve">
+    <value>Please specify correct address details.</value>
+  </data>
+  <data name="3027" xml:space="preserve">
+    <value>Account already created. Please login to online account to receive money.</value>
+  </data>
+  <data name="3028" xml:space="preserve">
+    <value>Sort code must be six digits.</value>
+  </data>
+  <data name="3029" xml:space="preserve">
+    <value>Must be specified.</value>
+  </data>
+  <data name="3030" xml:space="preserve">
+    <value>Account number must be of 8 digits</value>
+  </data>
+  <data name="3031" xml:space="preserve">
+    <value>Can not be more than 50 characters</value>
+  </data>
+  <data name="3032" xml:space="preserve">
+    <value>Is not a supported currency.</value>
+  </data>
+  <data name="3033" xml:space="preserve">
+    <value>Can not be more than 200 characters</value>
+  </data>
+  <data name="3034" xml:space="preserve">
+    <value>Remarks can not be more than 500 characters</value>
+  </data>
+  <data name="3035" xml:space="preserve">
+    <value>Shopping basket must start with {0}</value>
+  </data>
+  <data name="3036" xml:space="preserve">
+    <value>Not in proper format</value>
+  </data>
+  <data name="3037" xml:space="preserve">
+    <value>Item reference can not be more than 20 characters</value>
+  </data>
+  <data name="3038" xml:space="preserve">
+    <value>We have not been able to verify the code you have entered against this {0}. Please ensure you have entered it correctly.</value>
+  </data>
+  <data name="3039" xml:space="preserve">
+    <value>Item quantity must be greater than 0 and less than or equal to 1000000</value>
+  </data>
+  <data name="3040" xml:space="preserve">
+    <value>Should be greater than zero</value>
+  </data>
+  <data name="3041" xml:space="preserve">
+    <value>Must be either YES or NO</value>
+  </data>
+  <data name="3042" xml:space="preserve">
+    <value>Tax must be greater than or equal 0 and less than 1000000000</value>
+  </data>
+  <data name="3043" xml:space="preserve">
+    <value>Can be either 0 or 1 only</value>
+  </data>
+  <data name="3044" xml:space="preserve">
+    <value>Must be between 1 to 31</value>
+  </data>
+  <data name="3045" xml:space="preserve">
+    <value>Must be between 1 to 7</value>
+  </data>
+  <data name="3046" xml:space="preserve">
+    <value>Must be 1</value>
+  </data>
+  <data name="3047" xml:space="preserve">
+    <value>Must be in future or today</value>
+  </data>
+  <data name="3048" xml:space="preserve">
+    <value>Must be in future</value>
+  </data>
+  <data name="3049" xml:space="preserve">
+    <value>Must be between 0 to 100</value>
+  </data>
+  <data name="3050" xml:space="preserve">
+    <value>Must not be negative value.</value>
+  </data>
+  <data name="3051" xml:space="preserve">
+    <value>Must be less than weekly and monthly limit.</value>
+  </data>
+  <data name="3052" xml:space="preserve">
+    <value>Must be less than monthly limit.</value>
+  </data>
+  <data name="3053" xml:space="preserve">
+    <value>Must be greater than or equal to 0 (Zero)</value>
+  </data>
+  <data name="3054" xml:space="preserve">
+    <value>Must be within 1 - 10</value>
+  </data>
+  <data name="3055" xml:space="preserve">
+    <value>is not allowed</value>
+  </data>
+  <data name="3056" xml:space="preserve">
+    <value>Size should not be more than {0} MB</value>
+  </data>
+  <data name="3057" xml:space="preserve">
+    <value>Cannot be zero or negative value</value>
+  </data>
+  <data name="3059" xml:space="preserve">
+    <value>Already exist.</value>
+  </data>
+  <data name="3060" xml:space="preserve">
+    <value>Cannot be greater than current date</value>
+  </data>
+  <data name="3061" xml:space="preserve">
+    <value>Must contain {0}.</value>
+  </data>
+  <data name="3062" xml:space="preserve">
+    <value>Must be a .cs file</value>
+  </data>
+  <data name="3063" xml:space="preserve">
+    <value>Module already registered with name </value>
+  </data>
+  <data name="3064" xml:space="preserve">
+    <value>Maximum return amount should be </value>
+  </data>
+  <data name="3065" xml:space="preserve">
+    <value>Image size should not bigger then 200 x 150</value>
+  </data>
+  <data name="3066" xml:space="preserve">
+    <value>Must be unique.</value>
+  </data>
+  <data name="3067" xml:space="preserve">
+    <value>Must be uploaded</value>
+  </data>
+  <data name="3068" xml:space="preserve">
+    <value>Must be more than 2 characters long</value>
+  </data>
+  <data name="3069" xml:space="preserve">
+    <value>Email address can not exceed more than 100 characters.</value>
+  </data>
+  <data name="3070" xml:space="preserve">
+    <value>Cannot be charged</value>
+  </data>
+  <data name="3071" xml:space="preserve">
+    <value>Must be between 8 and 9 characters</value>
+  </data>
+  <data name="3072" xml:space="preserve">
+    <value>Date should not be before 01-Jan-1900</value>
+  </data>
+  <data name="3073" xml:space="preserve">
+    <value>You must be at least 18 years old to apply for a card</value>
+  </data>
+  <data name="3074" xml:space="preserve">
+    <value>Password length must be 8 to 20 characters.</value>
+  </data>
+  <data name="3075" xml:space="preserve">
+    <value>The security code should contain only numbers and must be 4 digits.</value>
+  </data>
+  <data name="3076" xml:space="preserve">
+    <value>All four digits cannot be the same</value>
+  </data>
+  <data name="3077" xml:space="preserve">
+    <value>You can not upload more than 3 images.</value>
+  </data>
+  <data name="3078" xml:space="preserve">
+    <value>Should not be credEcard's account number</value>
+  </data>
+  <data name="3079" xml:space="preserve">
+    <value>Must be specified and should not be less then zero</value>
+  </data>
+  <data name="3080" xml:space="preserve">
+    <value>Does not exist.</value>
+  </data>
+  <data name="3081" xml:space="preserve">
+    <value>Is already reversed</value>
+  </data>
+  <data name="3082" xml:space="preserve">
+    <value>Must be less than the purchase quantity</value>
+  </data>
+  <data name="3083" xml:space="preserve">
+    <value>Option will be void for this statement.</value>
+  </data>
+  <data name="3084" xml:space="preserve">
+    <value>Should not be less than minimum payment.</value>
+  </data>
+  <data name="3085" xml:space="preserve">
+    <value>Should not be more than closing balance.</value>
+  </data>
+  <data name="3086" xml:space="preserve">
+    <value>Should not be less than payment due date.</value>
+  </data>
+  <data name="3087" xml:space="preserve">
+    <value>Should not be extend more than one month.</value>
+  </data>
+  <data name="3088" xml:space="preserve">
+    <value>'From' date needs to be before 'To' date</value>
+  </data>
+  <data name="3089" xml:space="preserve">
+    <value>Sort code must be numeric</value>
+  </data>
+  <data name="3090" xml:space="preserve">
+    <value>Current address and previous address can not be same.</value>
+  </data>
+  <data name="3091" xml:space="preserve">
+    <value>Security code can not have consecutive numbers</value>
+  </data>
+  <data name="3092" xml:space="preserve">
+    <value>Licence number should be alpha numeric and 16 characters in length</value>
+  </data>
+  <data name="3093" xml:space="preserve">
+    <value>Bill number should be alpha numeric and 13 characters in length.</value>
+  </data>
+  <data name="3094" xml:space="preserve">
+    <value>Answer must be 4 to 10 characters</value>
+  </data>
+  <data name="3095" xml:space="preserve">
+    <value>Primary and secondary managers must be different.</value>
+  </data>
+  <data name="3096" xml:space="preserve">
+    <value>Must be specified between 8 and 20 characters and must include atleast 2 numbers</value>
+  </data>
+  <data name="3097" xml:space="preserve">
+    <value>To date must be greater than or equal to from date</value>
+  </data>
+  <data name="3098" xml:space="preserve">
+    <value>Contact due date must not be less then today.</value>
+  </data>
+  <data name="3099" xml:space="preserve">
+    <value>The adopted on date must be after the year 1500 and not in the future.</value>
+  </data>
+  <data name="3100" xml:space="preserve">
+    <value>Must be greater than </value>
+  </data>
+  <data name="3101" xml:space="preserve">
+    <value>Must be less than {0}</value>
+  </data>
+  <data name="3102" xml:space="preserve">
+    <value>Must be different</value>
+  </data>
+  <data name="3103" xml:space="preserve">
+    <value>You can not upload more than 3 photos.</value>
+  </data>
+  <data name="3104" xml:space="preserve">
+    <value>File is not in correct Format. 12 parameters should be passed.</value>
+  </data>
+  <data name="3105" xml:space="preserve">
+    <value>Already reversed</value>
+  </data>
+  <data name="3106" xml:space="preserve">
+    <value>is already {0} on {1}</value>
+  </data>
+  <data name="3107" xml:space="preserve">
+    <value>Your account status does not allow login.  Please contact customer services on {0} or {1}</value>
+  </data>
+  <data name="3108" xml:space="preserve">
+    <value>These details already exist on account(s) {0}. Are you sure you wish to set these bank details?  </value>
+  </data>
+  <data name="3109" xml:space="preserve">
+    <value>Invalid version supplied, please supply correct version.</value>
+  </data>
+  <data name="3110" xml:space="preserve">
+    <value>Account already created. Please login to online account to pay.</value>
+  </data>
+  <data name="3111" xml:space="preserve">
+    <value>Invalid folder path.</value>
+  </data>
+  <data name="3112" xml:space="preserve">
+    <value>Adjust amount cannot be greater than reserved amount</value>
+  </data>
+  <data name="1063" xml:space="preserve">
+    <value>Please enter numeric value for price</value>
+  </data>
+  <data name="1064" xml:space="preserve">
+    <value>Please enter numeric value for quantity</value>
+  </data>
+  <data name="1065" xml:space="preserve">
+    <value>Please enter numeric value only</value>
+  </data>
+  <data name="3113" xml:space="preserve">
+    <value>Price must be greater than 0 and less than or equal to 10000000</value>
+  </data>
+  <data name="3114" xml:space="preserve">
+    <value>Value must be greater than or equal to 0 and less than or equal to 10000000</value>
+  </data>
+  <data name="2058" xml:space="preserve">
+    <value>You have not registered as merchant through credEcard.</value>
+  </data>
+  <data name="2059" xml:space="preserve">
+    <value>Error while sending SMS</value>
+  </data>
+  <data name="3116" xml:space="preserve">
+    <value>Invalid activation code or activation code has expired</value>
+  </data>
+  <data name="3117" xml:space="preserve">
+    <value>This access code has already been activated</value>
+  </data>
+  <data name="59" xml:space="preserve">
+    <value>KYC check failed. Please contact customer support {0}</value>
+  </data>
+  <data name="3118" xml:space="preserve">
+    <value>Mobile number can have numbers only</value>
+  </data>
+  <data name="3119" xml:space="preserve">
+    <value>Merchant Personal account is not a valid account type. Please select some other account type.</value>
+  </data>
+  <data name="3120" xml:space="preserve">
+    <value>Please select country</value>
+  </data>
+  <data name="3121" xml:space="preserve">
+    <value>Please enter flat number or building name or building number or select country.</value>
+  </data>
+  <data name="1066" xml:space="preserve">
+    <value>Deleting the email address will move all communications to main email address. Continue? </value>
+  </data>
+  <data name="3122" xml:space="preserve">
+    <value>{0} already exists.</value>
+  </data>
+  <data name="3123" xml:space="preserve">
+    <value>You are not able to pay for things sold in {0} currency.</value>
+  </data>
+  <data name="3124" xml:space="preserve">
+    <value>You are not able to sell in {0} currency. You can choose currency where you have rights to sell.</value>
+  </data>
+  <data name="3125" xml:space="preserve">
+    <value>You are not authorised to use {0} service for {1} currency</value>
+  </data>
+  <data name="3127" xml:space="preserve">
+    <value>Make new maestro card request?</value>
+  </data>
+  <data name="3128" xml:space="preserve">
+    <value>Data already changed by another user, your changes will not be saved</value>
+  </data>
+  <data name="3129" xml:space="preserve">
+    <value>Is not a supported voucher currency.</value>
+  </data>
+  <data name="3130" xml:space="preserve">
+    <value>Duplicate voucher currency is not allowed</value>
+  </data>
+  <data name="3131" xml:space="preserve">
+    <value>Only live or suspended accounts can be changed into Frozen/CreditControl</value>
+  </data>
+  <data name="3132" xml:space="preserve">
+    <value>Maestro transaction file not validated successfully.</value>
+  </data>
+  <data name="3133" xml:space="preserve">
+    <value>Item cost must be greater than or equal 0 and less than 1000000000</value>
+  </data>
+  <data name="3134" xml:space="preserve">
+    <value>Wrong activation code entered.</value>
+  </data>
+  <data name="3135" xml:space="preserve">
+    <value>PAN {0} does not exist.</value>
+  </data>
+  <data name="3136" xml:space="preserve">
+    <value>Error reported</value>
+  </data>
+  <data name="3137" xml:space="preserve">
+    <value>Total {0} does not match with number of cards </value>
+  </data>
+  <data name="3138" xml:space="preserve">
+    <value>Maestro card action unsuccessful.</value>
+  </data>
+  <data name="3139" xml:space="preserve">
+    <value>Card activation unsuccessful.  Please contact customer services to activate your card on {0} or {1}.</value>
+  </data>
+  <data name="3140" xml:space="preserve">
+    <value>You have selected {0}, Are you sure?</value>
+  </data>
+  <data name="3141" xml:space="preserve">
+    <value>You have entered the wrong code, please try again.  You can make {0} more attempt. If you enter 	the wrong code at last attempt, you will need to call customer services on {1} to activate the card.</value>
+  </data>
+  <data name="3142" xml:space="preserve">
+    <value>Card activation tries exceeded. Please call customer services on {0} to activate this card.</value>
+  </data>
+  <data name="3143" xml:space="preserve">
+    <value>Fund cannot be transfered to the same account.</value>
+  </data>
+  <data name="3144" xml:space="preserve">
+    <value>Fund transfer service is available to live accounts only.  Transferring fund from {0} is not allowed.</value>
+  </data>
+  <data name="3145" xml:space="preserve">
+    <value>Currently, no funds available to transfer</value>
+  </data>
+  <data name="3146" xml:space="preserve">
+    <value>The amount you selected can not be transferred due to lack of available balance. Please adjust amount.</value>
+  </data>
+  <data name="3147" xml:space="preserve">
+    <value>At least two accounts are required to avail Transfer fund service.</value>
+  </data>
+  <data name="3148" xml:space="preserve">
+    <value>Must be greater than zero.</value>
+  </data>
+  <data name="3149" xml:space="preserve">
+    <value>Please enter amount to transfer</value>
+  </data>
+  <data name="3150" xml:space="preserve">
+    <value>Please enter a valid amount</value>
+  </data>
+  <data name="3151" xml:space="preserve">
+    <value>No other account is authorised to accept money.</value>
+  </data>
+  <data name="3152" xml:space="preserve">
+    <value>You can't transfer fund as agreement doesn't exist for your account.</value>
+  </data>
+  <data name="3153" xml:space="preserve">
+    <value>Special characters are not allowed in answer.</value>
+  </data>
+  <data name="3154" xml:space="preserve">
+    <value>User of the given account number in filename and User of Provider are not matching.</value>
+  </data>
+  <data name="3155" xml:space="preserve">
+    <value>must be Authorisation withdrawn only.</value>
+  </data>
+  <data name="3156" xml:space="preserve">
+    <value>cannot be changed.</value>
+  </data>
+  <data name="3157" xml:space="preserve">
+    <value>must be Authorised or Rejected only.</value>
+  </data>
+  <data name="3158" xml:space="preserve">
+    <value>{0} status is not active.</value>
+  </data>
+  <data name="3159" xml:space="preserve">
+    <value>MaestroCard Program detail can not be deleted.</value>
+  </data>
+  <data name="3160" xml:space="preserve">
+    <value>Default Maestrocard Program can not be deleted</value>
+  </data>
+  <data name="3161" xml:space="preserve">
+    <value>{0} file name should be {1}.</value>
+  </data>
+  <data name="3162" xml:space="preserve">
+    <value>Maestrocard display name must not be exceed to 21 character</value>
+  </data>
+  <data name="3163" xml:space="preserve">
+    <value>The amount you selected has been altered to the maximum amount you are able to withdraw at this time.</value>
+  </data>
+  <data name="3164" xml:space="preserve">
+    <value>This card is already activated</value>
+  </data>
+  <data name="3165" xml:space="preserve">
+    <value>Bank detail is already exist</value>
+  </data>
+  <data name="3166" xml:space="preserve">
+    <value>All special characters are not allowed. Please enter valid answer.</value>
+  </data>
+  <data name="3167" xml:space="preserve">
+    <value>Address not verified.</value>
+  </data>
+  <data name="3168" xml:space="preserve">
+    <value>You are not able to make a transfer at this time due to lack of funds. Selecting a different transfer method may reduce the charges allowing a transfer."</value>
+  </data>
+  <data name="1067" xml:space="preserve">
+    <value>Password has reset by staff user</value>
+  </data>
+  <data name="1068" xml:space="preserve">
+    <value>User forgot the password, Password has reset by system</value>
+  </data>
+  <data name="1069" xml:space="preserve">
+    <value>Password has changed by user</value>
+  </data>
+  <data name="1070" xml:space="preserve">
+    <value>Provider topup charge detail can not be deleted.</value>
+  </data>
+  <data name="3169" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="3170" xml:space="preserve">
+    <value>Card request successful.</value>
+  </data>
+  <data name="3171" xml:space="preserve">
+    <value>Card request unsuccessful.</value>
+  </data>
+  <data name="3172" xml:space="preserve">
+    <value>Not a valid account for user.</value>
+  </data>
+  <data name="3173" xml:space="preserve">
+    <value>Address details not found for selected contact, Continue with primary contact address ?</value>
+  </data>
+  <data name="3174" xml:space="preserve">
+    <value>Must be alpha numeric.</value>
+  </data>
+  <data name="3175" xml:space="preserve">
+    <value>Must be less than 50 characters</value>
+  </data>
+  <data name="3176" xml:space="preserve">
+    <value>Should be greater than or equal to Startdate</value>
+  </data>
+  <data name="3177" xml:space="preserve">
+    <value>Standing orders setup now can only start from tomorrow onwards</value>
+  </data>
+  <data name="3178" xml:space="preserve">
+    <value>Atleast one maestro card program required as default</value>
+  </data>
+  <data name="3179" xml:space="preserve">
+    <value>Must be greater than 0 and less than or equal to 100</value>
+  </data>
+  <data name="3180" xml:space="preserve">
+    <value>Should be {0}</value>
+  </data>
+  <data name="3181" xml:space="preserve">
+    <value>Requested account number for balance does not match</value>
+  </data>
+  <data name="3182" xml:space="preserve">
+    <value>Requested number for balance should be 4 or 8 digit</value>
+  </data>
+  <data name="3183" xml:space="preserve">
+    <value>Requested number for balance should be be numeric</value>
+  </data>
+  <data name="3184" xml:space="preserve">
+    <value>Mobile number registered to multiple users {0}</value>
+  </data>
+  <data name="3185" xml:space="preserve">
+    <value>Requested card number does not exists with requested user</value>
+  </data>
+  <data name="3186" xml:space="preserve">
+    <value>Requested card status invalid for activation</value>
+  </data>
+  <data name="3187" xml:space="preserve">
+    <value>Requested card status is ignore</value>
+  </data>
+  <data name="3188" xml:space="preserve">
+    <value>Requested accesscode does not match with requested user</value>
+  </data>
+  <data name="3189" xml:space="preserve">
+    <value>Card activate requeste format is not valid. Please send request like: ACTIVATE &lt;Last 4 digit&gt; &lt;access code&gt;</value>
+  </data>
+  <data name="3190" xml:space="preserve">
+    <value>Requested card number must be 4 digit</value>
+  </data>
+  <data name="3191" xml:space="preserve">
+    <value>Balance Request format is not valid. Please send request like: BALANCE &lt;ACCOUNT NUMBER&gt; OR BALANCE &lt;CARD last 4 DIGITS&gt;</value>
+  </data>
+  <data name="3192" xml:space="preserve">
+    <value>Requested card number for balance does not match</value>
+  </data>
+  <data name="3193" xml:space="preserve">
+    <value>Invalid account number</value>
+  </data>
+  <data name="3194" xml:space="preserve">
+    <value>Account is blocked for logged in staff user.</value>
+  </data>
+  <data name="3195" xml:space="preserve">
+    <value>{0} verification tries exceeded. Please call customer services on {1}.</value>
+  </data>
+  <data name="3196" xml:space="preserve">
+    <value>Address verification code format is invalid.</value>
+  </data>
+  <data name="3197" xml:space="preserve">
+    <value>address already verified.</value>
+  </data>
+  <data name="3198" xml:space="preserve">
+    <value>Adress Verification request format is not valid. Please send request like: VERIFY &lt;verification code&gt;</value>
+  </data>
+  <data name="3199" xml:space="preserve">
+    <value>Access is denied to this path : </value>
+  </data>
+  <data name="3200" xml:space="preserve">
+    <value>Verification code does not match</value>
+  </data>
+  <data name="3201" xml:space="preserve">
+    <value>Specified address is not valid for verification</value>
+  </data>
+  <data name="3202" xml:space="preserve">
+    <value>No BACS data found for this file.</value>
+  </data>
+  <data name="3203" xml:space="preserve">
+    <value>No CHAPS data found for this file.</value>
+  </data>
+  <data name="3204" xml:space="preserve">
+    <value>No International urgent data found for this file.</value>
+  </data>
+  <data name="3205" xml:space="preserve">
+    <value>No International regular data found for this file.</value>
+  </data>
+  <data name="3206" xml:space="preserve">
+    <value>File generated successfully.</value>
+  </data>
+  <data name="3207" xml:space="preserve">
+    <value>Cannot uncheck default institute</value>
+  </data>
+  <data name="3208" xml:space="preserve">
+    <value>Currency not available</value>
+  </data>
+  <data name="3209" xml:space="preserve">
+    <value>Default Card Program for this institute cannot be deleted.</value>
+  </data>
+  <data name="3210" xml:space="preserve">
+    <value>Are you sure you want to set this data as processesed?</value>
+  </data>
+  <data name="3211" xml:space="preserve">
+    <value>No data found to process, It may processed by some other user. You can not process it.</value>
+  </data>
+  <data name="3212" xml:space="preserve">
+    <value>Data found or file generated successfully for methods:</value>
+  </data>
+  <data name="3213" xml:space="preserve">
+    <value>No data found or file not generated for methods:</value>
+  </data>
+  <data name="3214" xml:space="preserve">
+    <value>Are you sure you want to ignore this due?</value>
+  </data>
+  <data name="3215" xml:space="preserve">
+    <value>File generate failed.</value>
+  </data>
+  <data name="3216" xml:space="preserve">
+    <value>Same institute and charge type for {0}</value>
+  </data>
+  <data name="3217" xml:space="preserve">
+    <value>Cannot Set Primary. These details are already associated as primary with another account</value>
+  </data>
+  <data name="3218" xml:space="preserve">
+    <value>Cannot set International Bank as Primary</value>
+  </data>
+  <data name="3219" xml:space="preserve">
+    <value>File status change</value>
+  </data>
+  <data name="3220" xml:space="preserve">
+    <value> Account should have Zero balance.</value>
+  </data>
+  <data name="3221" xml:space="preserve">
+    <value> Account has pending transaction(s).</value>
+  </data>
+  <data name="3222" xml:space="preserve">
+    <value> Account is suspended, frozen or credit control.</value>
+  </data>
+  <data name="3223" xml:space="preserve">
+    <value>Account can be close only if </value>
+  </data>
+  <data name="3224" xml:space="preserve">
+    <value>Close this account? All associated cards will be cancelled and account access blocked!</value>
+  </data>
+  <data name="3225" xml:space="preserve">
+    <value>Close this account? All associated cards will be cancelled!</value>
+  </data>
+  <data name="3226" xml:space="preserve">
+    <value>Lock user out of online account?</value>
+  </data>
+  <data name="3227" xml:space="preserve">
+    <value> Holding account.</value>
+  </data>
+  <data name="3228" xml:space="preserve">
+    <value>Must be minimum {0} characters</value>
+  </data>
+  <data name="3229" xml:space="preserve">
+    <value>Please enter search</value>
+  </data>
+  <data name="3230" xml:space="preserve">
+    <value>IBAN length is incorrect.</value>
+  </data>
+  <data name="3231" xml:space="preserve">
+    <value>IBAN is invalid.</value>
+  </data>
+  <data name="3232" xml:space="preserve">
+    <value>IBAN countrycode is invalid.</value>
+  </data>
+  <data name="3233" xml:space="preserve">
+    <value>IBAN checksum is invalid.</value>
+  </data>
+  <data name="3234" xml:space="preserve">
+    <value>IBAN BBAN length is invalid.</value>
+  </data>
+  <data name="3235" xml:space="preserve">
+    <value>IBAN BBAN format is invalid.</value>
+  </data>
+  <data name="3236" xml:space="preserve">
+    <value>BIC length is incorrect.</value>
+  </data>
+  <data name="3237" xml:space="preserve">
+    <value>BIC format is incorrect.</value>
+  </data>
+  <data name="3238" xml:space="preserve">
+    <value>BIC countrycode is invalid.</value>
+  </data>
+  <data name="3239" xml:space="preserve">
+    <value>BIC countrycode do not match with IBAN countrycode.</value>
+  </data>
+  <data name="3240" xml:space="preserve">
+    <value>Cannot deactivate the institute as it is associated with user(s)</value>
+  </data>
+  <data name="3241" xml:space="preserve">
+    <value>This file can not be re-uploaded.</value>
+  </data>
+  <data name="3242" xml:space="preserve">
+    <value>Passport number is invalid</value>
+  </data>
+  <data name="3243" xml:space="preserve">
+    <value>Driving licence number is invalid</value>
+  </data>
+  <data name="3244" xml:space="preserve">
+    <value>Can not delete automated standard communication template</value>
+  </data>
+  <data name="3245" xml:space="preserve">
+    <value>Can not delete this communication template</value>
+  </data>
+  <data name="3246" xml:space="preserve">
+    <value>Can not delete standard communication template</value>
+  </data>
+  <data name="3247" xml:space="preserve">
+    <value>Edit institute version now ?</value>
+  </data>
+  <data name="3248" xml:space="preserve">
+    <value>This is a default template, do you want to override it for this institute ?</value>
+  </data>
+  <data name="3249" xml:space="preserve">
+    <value>This voucher is already activated. Please use the online signup if you do not have a voucher.</value>
+  </data>
+  <data name="3250" xml:space="preserve">
+    <value>This voucher has expired.  Please use the online signup if you do not have a voucher.</value>
+  </data>
+  <data name="3251" xml:space="preserve">
+    <value>We cannot find an introduction pack for this code. Please re-enter carefully.</value>
+  </data>
+  <data name="3252" xml:space="preserve">
+    <value> Main account has other live accounts exist. Please change the main account if you want to close this account.</value>
+  </data>
+  <data name="3253" xml:space="preserve">
+    <value>Referral program not found for this user, please select another user</value>
+  </data>
+  <data name="3254" xml:space="preserve">
+    <value>Can not delete, Referral program is associated with institute</value>
+  </data>
+  <data name="3255" xml:space="preserve">
+    <value>Referral program manager and referral user cannot be same</value>
+  </data>
+  <data name="3256" xml:space="preserve">
+    <value>Device activation tries exceeded. Please re-register device.</value>
+  </data>
+  <data name="3257" xml:space="preserve">
+    <value>{0} not found, or user status is invalid or not a primary {1}.</value>
+  </data>
+  <data name="3258" xml:space="preserve">
+    <value>Activation code could not sent.</value>
+  </data>
+  <data name="3259" xml:space="preserve">
+    <value>Activation code generate failed.</value>
+  </data>
+  <data name="3260" xml:space="preserve">
+    <value>Please enter email address or mobile number.</value>
+  </data>
+  <data name="3261" xml:space="preserve">
+    <value>Email address and mobile number are of different user.</value>
+  </data>
+  <data name="3262" xml:space="preserve">
+    <value>Can not set deleted bank as primary bank.</value>
+  </data>
+  <data name="3263" xml:space="preserve">
+    <value>Records are already exported or there is no records to export.</value>
+  </data>
+  <data name="3265" xml:space="preserve">
+    <value>This page is refreshed.</value>
+  </data>
+  <data name="3266" xml:space="preserve">
+    <value>Can not change institute type associated with other group</value>
+  </data>
+  <data name="3267" xml:space="preserve">
+    <value>{0} is not valid.</value>
+  </data>
+  <data name="3270" xml:space="preserve">
+    <value>KYC result status is failed.</value>
+  </data>
+  <data name="3271" xml:space="preserve">
+    <value>Can not set invalid bank as primary</value>
+  </data>
+  <data name="3276" xml:space="preserve">
+    <value>The template you want to edit is deleted by other user.</value>
+  </data>
+  <data name="3277" xml:space="preserve">
+    <value>not allowed account number {0} status is {1}.</value>
+  </data>
+  <data name="3278" xml:space="preserve">
+    <value>not allowed configuration {0} value is invalid.</value>
+  </data>
+  <data name="3279" xml:space="preserve">
+    <value>Transaction is not allowed.</value>
+  </data>
+  <data name="3280" xml:space="preserve">
+    <value>This transaction would exceed your {0} limit</value>
+  </data>
+  <data name="3281" xml:space="preserve">
+    <value>Unlimited means {0} limit must be unlimited</value>
+  </data>
+  <data name="3282" xml:space="preserve">
+    <value>Must be less than {0} limit.</value>
+  </data>
+  <data name="3283" xml:space="preserve">
+    <value>This request has been already {0} by {1} at {2}</value>
+  </data>
+  <data name="3286" xml:space="preserve">
+    <value>Charge details must be specified.</value>
+  </data>
+  <data name="3287" xml:space="preserve">
+    <value>Account can not be charged.</value>
+  </data>
+  <data name="3288" xml:space="preserve">
+    <value>To and From account must be different</value>
+  </data>
+  <data name="3289" xml:space="preserve">
+    <value>To account has been closed.</value>
+  </data>
+  <data name="3290" xml:space="preserve">
+    <value>You will need to save (or send) this communication before you can view the attachment(s).  Alternately, it can be viewed from its location on disk</value>
+  </data>
+  <data name="3291" xml:space="preserve">
+    <value>Invalid promotional code</value>
+  </data>
+  <data name="3292" xml:space="preserve">
+    <value>Can not delete deleted promotional code</value>
+  </data>
+  <data name="3293" xml:space="preserve">
+    <value>Can not delete promotional code</value>
+  </data>
+  <data name="3294" xml:space="preserve">
+    <value>Unable to register with Referral Program, please try again.</value>
+  </data>
+  <data name="3295" xml:space="preserve">
+    <value>Email credentials to the User?</value>
+  </data>
+  <data name="3296" xml:space="preserve">
+    <value>Unable to delete institute setting.</value>
+  </data>
+  <data name="3297" xml:space="preserve">
+    <value>The record you want to delete is deleted by other user.</value>
+  </data>
+  <data name="3298" xml:space="preserve">
+    <value>You can not delete default application setting.</value>
+  </data>
+  <data name="3299" xml:space="preserve">
+    <value>Flag balance must be less than or equal to max balance</value>
+  </data>
+  <data name="3300" xml:space="preserve">
+    <value>If flag balance is zero so max balance should be zero and vice versa</value>
+  </data>
+  <data name="3301" xml:space="preserve">
+    <value>Please select how long you lived here</value>
+  </data>
+  <data name="3302" xml:space="preserve">
+    <value>Mark this card as main. Are you sure?</value>
+  </data>
+  <data name="3303" xml:space="preserve">
+    <value>Already requested for authorisation</value>
+  </data>
+  <data name="3304" xml:space="preserve">
+    <value>Can not delete default institute agreement</value>
+  </data>
+  <data name="3305" xml:space="preserve">
+    <value>must be Authorised only.</value>
+  </data>
+  <data name="3306" xml:space="preserve">
+    <value>New password must be different from old password and user name</value>
+  </data>
+  <data name="3307" xml:space="preserve">
+    <value>Password expired</value>
+  </data>
+  <data name="3308" xml:space="preserve">
+    <value>Your email address was successfully changed.  You will need to use this new email address when you login.  To enhance security, we request that you login again to continue using your online account.</value>
+  </data>
+  <data name="3309" xml:space="preserve">
+    <value>Thank you for using your online account.</value>
+  </data>
+  <data name="3310" xml:space="preserve">
+    <value>Login to your online account</value>
+  </data>
+  <data name="3311" xml:space="preserve">
+    <value>Go to homepage</value>
+  </data>
+  <data name="3312" xml:space="preserve">
+    <value>Your password should be between 8 &amp; 20 characters long and must contain both letters and at least 2 numbers</value>
+  </data>
+  <data name="3313" xml:space="preserve">
+    <value>The National ID card details you have entered are not valid. Please re-enter.</value>
+  </data>
+  <data name="3314" xml:space="preserve">
+    <value>Max balance unlimited means Flag balance also must be unlimited</value>
+  </data>
+  <data name="3315" xml:space="preserve">
+    <value>Email address already exists. Please provide a different email address.</value>
+  </data>
+  <data name="3316" xml:space="preserve">
+    <value>Account is blocked.</value>
+  </data>
+  <data name="3317" xml:space="preserve">
+    <value>Imported record count does not match with the number of records in file.</value>
+  </data>
+  <data name="3319" xml:space="preserve">
+    <value>End date should be greater than next run date.</value>
+  </data>
+  <data name="3320" xml:space="preserve">
+    <value>End date should be greater than today's date.</value>
+  </data>
+  <data name="3321" xml:space="preserve">
+    <value>Service is not available as user status is not Active</value>
+  </data>
+  <data name="3324" xml:space="preserve">
+    <value>Transaction fees should not exceed amount.</value>
+  </data>
+  <data name="3325" xml:space="preserve">
+    <value>Maximum balance limit exceeded.</value>
+  </data>
+  <data name="3327" xml:space="preserve">
+    <value>Schedule Run Date should be less than next run date and greater than current run date</value>
+  </data>
+  <data name="3328" xml:space="preserve">
+    <value>User detail is already exists.</value>
+  </data>
+  <data name="3330" xml:space="preserve">
+    <value>You do not have sufficient funds to pay fees for this transaction. Please try later.</value>
+  </data>
+  <data name="3331" xml:space="preserve">
+    <value>Sorry, you already have the maximum number of additional cards</value>
+  </data>
+  <data name="3332" xml:space="preserve">
+    <value>Sorry, the additional cardholder needs to be {0} or older</value>
+  </data>
+  <data name="3333" xml:space="preserve">
+    <value>Recepient account balance exceed maximum limit. Do you want to continue?</value>
+  </data>
+  <data name="3334" xml:space="preserve">
+    <value>Card holder's age is minor, please tick the check box of parent or guardian</value>
+  </data>
+  <data name="3335" xml:space="preserve">
+    <value>Your account status does not allow requesting additional cards.  Please contact customer services on {0}.</value>
+  </data>
+  <data name="3336" xml:space="preserve">
+    <value>Requested additional card</value>
+  </data>
+  <data name="3337" xml:space="preserve">
+    <value>Account is restricted</value>
+  </data>
+  <data name="3338" xml:space="preserve">
+    <value>{0} feature is disabled</value>
+  </data>
+  <data name="3339" xml:space="preserve">
+    <value>Cards have been issued to all contacts of this user.  No more cards can be requested.</value>
+  </data>
+  <data name="3340" xml:space="preserve">
+    <value>Additional cards cannot be requested for this account.  Please choose the main account to continue.</value>
+  </data>
+  <data name="3341" xml:space="preserve">
+    <value>Additional cards cannot be requested till the previous request is processed.</value>
+  </data>
+  <data name="3342" xml:space="preserve">
+    <value>Unable to delete {0}.</value>
+  </data>
+  <data name="3345" xml:space="preserve">
+    <value>Maestro Card status change request alreday exist.</value>
+  </data>
+  <data name="3346" xml:space="preserve">
+    <value>Do you want to print all Communications?</value>
+  </data>
+  <data name="3347" xml:space="preserve">
+    <value>Do you want to preview all Communications?</value>
+  </data>
+  <data name="3348" xml:space="preserve">
+    <value>Please select a communication to Print</value>
+  </data>
+  <data name="3349" xml:space="preserve">
+    <value>Please select a communication to Preview</value>
+  </data>
+  <data name="3350" xml:space="preserve">
+    <value>You can not delete default attachment(s)</value>
+  </data>
+  <data name="3351" xml:space="preserve">
+    <value>Can not delete institute agreement assigned to kyc status</value>
+  </data>
+  <data name="3352" xml:space="preserve">
+    <value>Attachment is only valid for email communication</value>
+  </data>
+  <data name="3353" xml:space="preserve">
+    <value>Invalid message format.</value>
+  </data>
+  <data name="3354" xml:space="preserve">
+    <value>Invalid Recipient SMS Name</value>
+  </data>
+  <data name="3355" xml:space="preserve">
+    <value>Number of SMS transfers per day limit exceeded</value>
+  </data>
+  <data name="3356" xml:space="preserve">
+    <value>Not authorised to use third party transfer.</value>
+  </data>
+  <data name="3357" xml:space="preserve">
+    <value>Confirmation code supplied is invalid or has expired.</value>
+  </data>
+  <data name="3358" xml:space="preserve">
+    <value>Function is not available.</value>
+  </data>
+  <data name="3359" xml:space="preserve">
+    <value>Auto adjust user and account status?</value>
+  </data>
+  <data name="3360" xml:space="preserve">
+    <value>Issue new card to user?</value>
+  </data>
+  <data name="3361" xml:space="preserve">
+    <value>Send welcome mail?</value>
+  </data>
+  <data name="3362" xml:space="preserve">
+    <value>Card is requested for main account so you can not set this user to alert.</value>
+  </data>
+  <data name="3363" xml:space="preserve">
+    <value>Mobile is not verified.</value>
+  </data>
+  <data name="3364" xml:space="preserve">
+    <value>SMS sent successfully.</value>
+  </data>
+  <data name="3365" xml:space="preserve">
+    <value>SMS sending failed.</value>
+  </data>
+  <data name="3366" xml:space="preserve">
+    <value>Web requests to metavante failed: {0}</value>
+  </data>
+  <data name="3367" xml:space="preserve">
+    <value>You have exceeded the maximum number of times you can {0} mobile numbers. Please call Customer Services on {1}.</value>
+  </data>
+  <data name="3368" xml:space="preserve">
+    <value>The mobile number is already registered.</value>
+  </data>
+  <data name="3369" xml:space="preserve">
+    <value>Data not changed.</value>
+  </data>
+  <data name="3370" xml:space="preserve">
+    <value> request for authorisation pending.</value>
+  </data>
+  <data name="3371" xml:space="preserve">
+    <value>User currency rights override for {0} for following feature currencies: Feature: {1} - Currency: {2} - IsActive: {3}</value>
+  </data>
+  <data name="3372" xml:space="preserve">
+    <value>User currency rights reset for {0}</value>
+  </data>
+  <data name="3373" xml:space="preserve">
+    <value>Institute currency rights changed for {0} for following feature currencies: Feature: {1} - Currency: {2} - IsActive: {3}</value>
+  </data>
+  <data name="3374" xml:space="preserve">
+    <value>To close account {0} - Other card(s) presents.</value>
+  </data>
+  <data name="3375" xml:space="preserve">
+    <value>To close account {0} - {1}</value>
+  </data>
+  <data name="3376" xml:space="preserve">
+    <value>To archive user- balance remains</value>
+  </data>
+  <data name="3377" xml:space="preserve">
+    <value>Provider Topup Charges will be applied for each top up as either flat amount or rate percentage or both as defined for specified range. The rates are as follows:</value>
+  </data>
+  <data name="3378" xml:space="preserve">
+    <value>Invalid email address-Please switch off automated/marketing emails sent to </value>
+  </data>
+  <data name="3379" xml:space="preserve">
+    <value>Disabling {0} feature will delete all existing standing orders in all currencies for all institute Users.</value>
+  </data>
+  <data name="3380" xml:space="preserve">
+    <value>Disabling {0} institute currency right for {1} will delete all existing standing orders for {1} accounts of all institute Users.</value>
+  </data>
+  <data name="3381" xml:space="preserve">
+    <value>Disabling {0} User currency right for {1} will delete all existing standing orders for {1} accounts of this User.</value>
+  </data>
+  <data name="3382" xml:space="preserve">
+    <value>Institute features changed for {0} for following features:</value>
+  </data>
+  <data name="3383" xml:space="preserve">
+    <value>Institute currency rights changed for {0} for following feature currencies:</value>
+  </data>
+  <data name="3384" xml:space="preserve">
+    <value>User currency rights reset for {0}</value>
+  </data>
+  <data name="3385" xml:space="preserve">
+    <value>User currency rights override for {0} for following feature currencies:</value>
+  </data>
+  <data name="3386" xml:space="preserve">
+    <value>Can not delete standard help.</value>
+  </data>
+  <data name="3387" xml:space="preserve">
+    <value>This is a default help, do you want to override it for this institute ?</value>
+  </data>
+  <data name="3388" xml:space="preserve">
+    <value>The help you want to edit is deleted by other user.</value>
+  </data>
+  <data name="3389" xml:space="preserve">
+    <value>Edit institute version now ?</value>
+  </data>
+  <data name="3390" xml:space="preserve">
+    <value>Flag load must be less than or equal to total load</value>
+  </data>
+  <data name="3391" xml:space="preserve">
+    <value>Flag yearly ATM limit must be less than or equal to yearly ATM limit</value>
+  </data>
+  <data name="3392" xml:space="preserve">
+    <value>Flag Individual POS limit must be less than Individual POS limit</value>
+  </data>
+  <data name="3393" xml:space="preserve">
+    <value>Total load limit exceeded.</value>
+  </data>
+  <data name="3394" xml:space="preserve">
+    <value>Security questions for this user have not been configured.</value>
+  </data>
+  <data name="3395" xml:space="preserve">
+    <value>Account is blocked or account status does not allow login or password reset.</value>
+  </data>
+  <data name="3396" xml:space="preserve">
+    <value>Request has timed out.</value>
+  </data>
+  <data name="3397" xml:space="preserve">
+    <value>Account blocked.</value>
+  </data>
+  <data name="3398" xml:space="preserve">
+    <value>the security answer is invalid. Please answer again</value>
+  </data>
+  <data name="3399" xml:space="preserve">
+    <value>Yearly Total limit must be greated than or Equal to Yearly POS and yearly ATM limit.</value>
+  </data>
+  <data name="3400" xml:space="preserve">
+    <value>Account blocked due to more than {0} wrong security answer attempts. Please contact customer services on {1} or {2}.</value>
+  </data>
+  <data name="3401" xml:space="preserve">
+    <value>Daily spend limit should be Greater than or equal to Daily ATM and Daily POS Limit.</value>
+  </data>
+  <data name="3402" xml:space="preserve">
+    <value>Reset password SMS was not sent successfully.</value>
+  </data>
+  <data name="3403" xml:space="preserve">
+    <value>Invalid Correspondence Number.</value>
+  </data>
+  <data name="3404" xml:space="preserve">
+    <value>Correspondence number does not Exists.</value>
+  </data>
+  <data name="3405" xml:space="preserve">
+    <value>From date must be greater than account create date.</value>
+  </data>
+  <data name="3406" xml:space="preserve">
+    <value>Preview order statement. Are you sure?</value>
+  </data>
+  <data name="3407" xml:space="preserve">
+    <value>Account status should be live or restricted.</value>
+  </data>
+  <data name="3408" xml:space="preserve">
+    <value>Please add funds to your account before making a statement request.</value>
+  </data>
+  <data name="3409" xml:space="preserve">
+    <value>Specified duration exceeds maximum {0} days allowed per order statement, please change the duration accordingly.</value>
+  </data>
+  <data name="3410" xml:space="preserve">
+    <value>This agreement cannot be marked as Inactive, because it is used either in Default agreement for Currency OR in KYC Status institute Agreement OR institute agreement.</value>
+  </data>
+  <data name="3411" xml:space="preserve">
+    <value>Change status of Agreement:{0} - {1} as {2}</value>
+  </data>
+  <data name="3412" xml:space="preserve">
+    <value>Must be greater than 0 and less than 366.</value>
+  </data>
+  <data name="3413" xml:space="preserve">
+    <value>Please select only icon files.</value>
+  </data>
+  <data name="3414" xml:space="preserve">
+    <value>Institute icon will affect on next login</value>
+  </data>
+  <data name="3415" xml:space="preserve">
+    <value>Account holder must be specified.</value>
+  </data>
+  <data name="3416" xml:space="preserve">
+    <value>Account holder must be alpha numeric</value>
+  </data>
+  <data name="3417" xml:space="preserve">
+    <value>Sort code must be specified</value>
+  </data>
+  <data name="3418" xml:space="preserve">
+    <value>Account number must be specified.</value>
+  </data>
+  <data name="3419" xml:space="preserve">
+    <value>Account number must be alpha numeric</value>
+  </data>
+  <data name="3420" xml:space="preserve">
+    <value>Bank name must be specified.</value>
+  </data>
+  <data name="3421" xml:space="preserve">
+    <value>Bank name must be alpha numeric</value>
+  </data>
+  <data name="3422" xml:space="preserve">
+    <value>Bank address  must be alpha numeric</value>
+  </data>
+  <data name="3423" xml:space="preserve">
+    <value>Reference  must be alpha numeric</value>
+  </data>
+  <data name="3424" xml:space="preserve">
+    <value>Bank account type must be alpha numeric</value>
+  </data>
+  <data name="3425" xml:space="preserve">
+    <value>IBAN must be specified</value>
+  </data>
+  <data name="3426" xml:space="preserve">
+    <value>IBAN  must be alpha numeric</value>
+  </data>
+  <data name="3427" xml:space="preserve">
+    <value>BIC must be specified.</value>
+  </data>
+  <data name="3428" xml:space="preserve">
+    <value>BIC  must be alpha numeric</value>
+  </data>
+  <data name="3429" xml:space="preserve">
+    <value>Account holder address must be specified.</value>
+  </data>
+  <data name="3430" xml:space="preserve">
+    <value>Account holder address  must be alpha numeric</value>
+  </data>
+  <data name="3431" xml:space="preserve">
+    <value>From account must be specified</value>
+  </data>
+  <data name="3432" xml:space="preserve">
+    <value>To account must be specified.</value>
+  </data>
+  <data name="3433" xml:space="preserve">
+    <value>Amount should be greater than zero</value>
+  </data>
+  <data name="3434" xml:space="preserve">
+    <value>Currency must be specified</value>
+  </data>
+  <data name="3435" xml:space="preserve">
+    <value>Holding account number must be specified.</value>
+  </data>
+  <data name="3436" xml:space="preserve">
+    <value>Email Address {0} is {1}</value>
+  </data>
+  <data name="3437" xml:space="preserve">
+    <value>Maestrocard not found.</value>
+  </data>
+  <data name="3438" xml:space="preserve">
+    <value>Card not found.</value>
+  </data>
+  <data name="3439" xml:space="preserve">
+    <value>Card status is canceled.</value>
+  </data>
+  <data name="3440" xml:space="preserve">
+    <value>Card already reported as lost/stolen.</value>
+  </data>
+  <data name="3441" xml:space="preserve">
+    <value>Payment credit is already ignored or processed.</value>
+  </data>
+  <data name="3442" xml:space="preserve">
+    <value>In order to delete main email address please set alternate email address as main</value>
+  </data>
+  <data name="3443" xml:space="preserve">
+    <value>KYC Limits overlap with other kyc status for same institute</value>
+  </data>
+  <data name="3444" xml:space="preserve">
+    <value>Inactive institute card with activity reaching expiry</value>
+  </data>
+  <data name="3445" xml:space="preserve">
+    <value>Do you want to charge fees ?</value>
+  </data>
+  <data name="3446" xml:space="preserve">
+    <value>Remind Username?</value>
+  </data>
+  <data name="3447" xml:space="preserve">
+    <value>Username remind mail sent to user : </value>
+  </data>
+  <data name="3448" xml:space="preserve">
+    <value>Username changed.  Please use your new Username the next time you login.</value>
+  </data>
+  <data name="3449" xml:space="preserve">
+    <value>Do you want to request replacement/reissue card?</value>
+  </data>
+  <data name="3450" xml:space="preserve">
+    <value>Add atleast Username or Long card number with security answer.</value>
+  </data>
+  <data name="3451" xml:space="preserve">
+    <value>Long card number not found. Please check and try again.</value>
+  </data>
+  <data name="3452" xml:space="preserve">
+    <value>Card has no activity so cannot be replaced or reissued and as a result system will cancel the card and close the account</value>
+  </data>
+  <data name="3453" xml:space="preserve">
+    <value>Your memorable name cannot be the same as your username or password.</value>
+  </data>
+  <data name="3454" xml:space="preserve">
+    <value>Post code alredy in grey area post code list.</value>
+  </data>
+  <data name="3455" xml:space="preserve">
+    <value>Postcode verified? Select "Yes" to verify postcode, "No" to declined user.</value>
+  </data>
+  <data name="3456" xml:space="preserve">
+    <value>Unable to verify postcode</value>
+  </data>
+  <data name="3457" xml:space="preserve">
+    <value>Settings will affect on next login</value>
+  </data>
+  <data name="3458" xml:space="preserve">
+    <value>Authorisation Request Decline</value>
+  </data>
+  <data name="3459" xml:space="preserve">
+    <value>Invalid user. This action is not allowed.</value>
+  </data>
+  <data name="3460" xml:space="preserve">
+    <value>Username should be 8-20 alpha-numeric characters and should not include special characters (@:.,;)</value>
+  </data>
+  <data name="3461" xml:space="preserve">
+    <value>Your password cannot be same as your username.</value>
+  </data>
+  <data name="3462" xml:space="preserve">
+    <value>New username must be different from old username</value>
+  </data>
+  <data name="4001" xml:space="preserve">
+    <value>Invalid card name length. Max valid length is {0}</value>
+  </data>
+  <data name="4002" xml:space="preserve">
+    <value>Invalid card program design.</value>
+  </data>
+  <data name="4003" xml:space="preserve">
+    <value>Card requested successfully.</value>
+  </data>
+  <data name="4004" xml:space="preserve">
+    <value>Unable to generate file for file ID = {0}</value>
+  </data>
+  <data name="4005" xml:space="preserve">
+    <value>Card {0} successfully.</value>
+  </data>
+  <data name="4006" xml:space="preserve">
+    <value>Cancel Card, No further transactions will be allowed. Are you sure?</value>
+  </data>
+  <data name="4007" xml:space="preserve">
+    <value>Do you want to change institute Status to {0} ?</value>
+  </data>
+  <data name="4008" xml:space="preserve">
+    <value>You don't have sufficient fund to request card.</value>
+  </data>
+  <data name="4009" xml:space="preserve">
+    <value>Primary card alredy requested.</value>
+  </data>
+  <data name="60" xml:space="preserve">
+    <value>Can not change status of default {0}</value>
+  </data>
+  <data name="61" xml:space="preserve">
+    <value>Institute must have  default card program and agreement.</value>
+  </data>
+  <data name="62" xml:space="preserve">
+    <value>Institute must have default Agreement.</value>
+  </data>
+  <data name="63" xml:space="preserve">
+    <value>Institute must have default card program design.</value>
+  </data>
+  <data name="4010" xml:space="preserve">
+    <value>Card could not be activated. User's KYC has not been performed yet or KYC has been failed.</value>
+  </data>
+  <data name="2060" xml:space="preserve">
+    <value>Account blocked due to more than {0} failed login attempts.</value>
+  </data>
+  <data name="4012" xml:space="preserve">
+    <value>User photo not provided</value>
+  </data>
+  <data name="4013" xml:space="preserve">
+    <value>Subbin generated successfully</value>
+  </data>
+  <data name="4014" xml:space="preserve">
+    <value>Card re-requested successfully</value>
+  </data>
+  <data name="4015" xml:space="preserve">
+    <value>Provide atleast one of Passport detail or nation id card detail.</value>
+  </data>
+</root>

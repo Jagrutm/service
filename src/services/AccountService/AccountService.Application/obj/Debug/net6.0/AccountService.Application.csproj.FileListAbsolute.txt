@@ -1,0 +1,15 @@
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\bin\Debug\net6.0\AccountService.Application.deps.json
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\bin\Debug\net6.0\AccountService.Application.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\bin\Debug\net6.0\AccountService.Application.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\bin\Debug\net6.0\EventBus.Messages.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\bin\Debug\net6.0\EventBus.Messages.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\AccountService.Application.csproj.AssemblyReference.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\AccountService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\AccountService.Application.AssemblyInfoInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\AccountService.Application.AssemblyInfo.cs
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\AccountService.Application.csproj.CoreCompileInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\AccountService.Application.csproj.CopyComplete
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\AccountService.Application.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\refint\AccountService.Application.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\AccountService.Application.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\services\AccountService\AccountService.Application\obj\Debug\net6.0\ref\AccountService.Application.dll

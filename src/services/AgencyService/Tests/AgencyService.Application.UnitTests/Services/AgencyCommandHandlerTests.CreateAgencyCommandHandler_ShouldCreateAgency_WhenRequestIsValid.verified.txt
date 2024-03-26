@@ -1,0 +1,7 @@
+﻿{
+  AgencyId: Guid_1,
+  AgencyName: Contis by Solaris,
+  RegistrationDate: DateTime_1,
+  AgencyCode: CON123,
+  IsActive: true
+}

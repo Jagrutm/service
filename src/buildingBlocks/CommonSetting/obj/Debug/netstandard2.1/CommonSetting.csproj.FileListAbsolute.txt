@@ -1,0 +1,12 @@
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\bin\Debug\netstandard2.1\CommonSetting.deps.json
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\bin\Debug\netstandard2.1\CommonSetting.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\bin\Debug\netstandard2.1\CommonSetting.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\bin\Debug\netstandard2.1\Common.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\bin\Debug\netstandard2.1\Common.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\bin\Debug\netstandard2.1\gu\Common.resources.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\obj\Debug\netstandard2.1\CommonSetting.csproj.AssemblyReference.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\obj\Debug\netstandard2.1\CommonSetting.GeneratedMSBuildEditorConfig.editorconfig
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\obj\Debug\netstandard2.1\CommonSetting.csproj.CoreCompileInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\obj\Debug\netstandard2.1\CommonSetting.csproj.CopyComplete
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\obj\Debug\netstandard2.1\CommonSetting.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\CommonSetting\obj\Debug\netstandard2.1\CommonSetting.pdb

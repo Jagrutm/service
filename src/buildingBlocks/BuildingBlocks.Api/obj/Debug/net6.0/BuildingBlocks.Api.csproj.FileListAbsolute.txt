@@ -1,0 +1,12 @@
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\bin\Debug\net6.0\BuildingBlocks.Api.deps.json
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\bin\Debug\net6.0\BuildingBlocks.Api.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\bin\Debug\net6.0\BuildingBlocks.Api.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\BuildingBlocks.Api.csproj.AssemblyReference.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\BuildingBlocks.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\BuildingBlocks.Api.AssemblyInfoInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\BuildingBlocks.Api.AssemblyInfo.cs
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\BuildingBlocks.Api.csproj.CoreCompileInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\BuildingBlocks.Api.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\refint\BuildingBlocks.Api.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\BuildingBlocks.Api.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Api\obj\Debug\net6.0\ref\BuildingBlocks.Api.dll

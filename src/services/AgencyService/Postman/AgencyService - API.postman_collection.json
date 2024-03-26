@@ -1,0 +1,822 @@
+{
+	"info": {
+		"_postman_id": "c724695f-a5bc-499c-aaee-aa9ec7a4185f",
+		"name": "AgencyService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Agency",
+			"item": [
+				{
+					"name": "Create agency",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const moment = require('moment');\r",
+									"const tomorrow = moment().add(1, 'days');\r",
+									"const yesterday = moment().subtract(1, 'days');\r",
+									"\r",
+									"const nextWeek = moment().add(7, 'days');\r",
+									"const nextMonth = moment().add(1, 'months');\r",
+									"const nextQuarter = moment().add(3, 'months');\r",
+									"\r",
+									"const dateTimeFormat = \"YYYY-MM-DD\";\r",
+									"pm.environment.set(\"today\", moment().format(dateTimeFormat));\r",
+									"pm.environment.set(\"tomorrow\", tomorrow.format(dateTimeFormat));\r",
+									"pm.environment.set(\"yesterday\", yesterday.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextWeek\", nextWeek.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextMonth\", nextMonth.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextQuarter\", nextQuarter.format(dateTimeFormat));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"agencyId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"agencyName\": \"Niks\",\r\n  \"registrationDate\":  \"{{nextWeek}}\",\r\n  \"agencyCode\": \"NIK123\",\r\n  \"isActive\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agency",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agency"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get agencies",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agency",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agency"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get agency by Id",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agency/{{agencyId}}",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agency",
+								"{{agencyId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Agency",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const moment = require('moment');\r",
+									"const tomorrow = moment().add(1, 'days');\r",
+									"const yesterday = moment().subtract(1, 'days');\r",
+									"\r",
+									"const nextWeek = moment().add(7, 'days');\r",
+									"const nextMonth = moment().add(1, 'months');\r",
+									"const nextQuarter = moment().add(3, 'months');\r",
+									"\r",
+									"const dateTimeFormat = \"YYYY-MM-DD\";\r",
+									"pm.environment.set(\"today\", moment().format(dateTimeFormat));\r",
+									"pm.environment.set(\"tomorrow\", tomorrow.format(dateTimeFormat));\r",
+									"pm.environment.set(\"yesterday\", yesterday.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextWeek\", nextWeek.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextMonth\", nextMonth.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextQuarter\", nextQuarter.format(dateTimeFormat));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"agencyName\": \"Updated Contis\",\r\n  \"registrationDate\": \"{{nextWeek}}\",\r\n  \"agencyCode\": \"ABC234\",\r\n  \"isActive\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agency/{{agencyId}}",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agency",
+								"{{agencyId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Agency by Id",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agency/{{agencyId}}",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agency",
+								"{{agencyId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Certificate",
+			"item": [
+				{
+					"name": "Create Certificate",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const moment = require('moment');\r",
+									"const tomorrow = moment().add(1, 'days');\r",
+									"const yesterday = moment().subtract(1, 'days');\r",
+									"\r",
+									"const nextWeek = moment().add(7, 'days');\r",
+									"const nextMonth = moment().add(1, 'months');\r",
+									"const nextQuarter = moment().add(3, 'months');\r",
+									"\r",
+									"const dateTimeFormat = \"YYYY-MM-DD\";\r",
+									"pm.environment.set(\"today\", moment().format(dateTimeFormat));\r",
+									"pm.environment.set(\"tomorrow\", tomorrow.format(dateTimeFormat));\r",
+									"pm.environment.set(\"yesterday\", yesterday.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextWeek\", nextWeek.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextMonth\", nextMonth.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextQuarter\", nextQuarter.format(dateTimeFormat));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"agencyId\": \"3FA85F64-5717-4562-B3FC-2C963F66AFA6\",\r\n  \"certificateName\": \"Solaris certificate\",\r\n  \"certificateKey\": \"57987987987987adcghavfjhgjhg\",\r\n  \"startDate\": \"{{today}}\",\r\n  \"expiryDate\": \"{{nextWeek}}\",\r\n  \"type\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/certificate",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"certificate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Certificates",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/certificate",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"certificate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Certificate by Id",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/certificate/{{certificateId}}",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"certificate",
+								"{{certificateId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Certificate by Id",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/certificate/{{certificateId}}",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"certificate",
+								"{{certificateId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify Certificate",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/certificate/{{certificateId}}/verify",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"certificate",
+								"{{certificateId}}",
+								"verify"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Activate Certificate",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/certificate/{{certificateId}}/activate",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"certificate",
+								"{{certificateId}}",
+								"activate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Maintenance",
+			"item": [
+				{
+					"name": "Create Maintenace",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const moment = require('moment');\r",
+									"const tomorrow = moment().add(1, 'days');\r",
+									"const yesterday = moment().subtract(1, 'days');\r",
+									"\r",
+									"const nextWeek = moment().add(7, 'days');\r",
+									"const nextMonth = moment().add(1, 'months');\r",
+									"const nextQuarter = moment().add(3, 'months');\r",
+									"\r",
+									"const dateTimeFormat = \"YYYY-MM-DD\";\r",
+									"pm.environment.set(\"today\", moment().format(dateTimeFormat));\r",
+									"pm.environment.set(\"tomorrow\", tomorrow.format(dateTimeFormat));\r",
+									"pm.environment.set(\"yesterday\", yesterday.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextWeek\", nextWeek.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextMonth\", nextMonth.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextQuarter\", nextQuarter.format(dateTimeFormat));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"fromDate\": \"{{today}}\",\r\n  \"toDate\": \"{{tomorrow}}\",\r\n  \"responseCode\": \"SameDay\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/maintenance",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"maintenance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Maintenances",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/maintenance",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"maintenance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Maintenance by Id",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/maintenance/{{maintenanceId}}",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"maintenance",
+								"{{maintenanceId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Maintenance Details",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const moment = require('moment');\r",
+									"const tomorrow = moment().add(1, 'days');\r",
+									"const yesterday = moment().subtract(1, 'days');\r",
+									"\r",
+									"const nextWeek = moment().add(7, 'days');\r",
+									"const nextMonth = moment().add(1, 'months');\r",
+									"const nextQuarter = moment().add(3, 'months');\r",
+									"\r",
+									"const dateTimeFormat = \"YYYY-MM-DD\";\r",
+									"pm.environment.set(\"today\", moment().format(dateTimeFormat));\r",
+									"pm.environment.set(\"tomorrow\", tomorrow.format(dateTimeFormat));\r",
+									"pm.environment.set(\"yesterday\", yesterday.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextWeek\", nextWeek.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextMonth\", nextMonth.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextQuarter\", nextQuarter.format(dateTimeFormat));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"fromDate\": \"{{today}}\",\r\n  \"toDate\": \"{{tomorrow}}\",\r\n  \"responseCode\": \"NextCalendarDay\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/maintenance/{{maintenanceId}}",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"maintenance",
+								"{{maintenanceId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Maintenance Details",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/maintenance/{{maintenanceId}}",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"maintenance",
+								"{{maintenanceId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sortcode",
+			"item": [
+				{
+					"name": "Create Sortcode",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const moment = require('moment');\r",
+									"const tomorrow = moment().add(1, 'days');\r",
+									"const yesterday = moment().subtract(1, 'days');\r",
+									"\r",
+									"const nextWeek = moment().add(7, 'days');\r",
+									"const nextMonth = moment().add(1, 'months');\r",
+									"const nextQuarter = moment().add(3, 'months');\r",
+									"\r",
+									"const dateTimeFormat = \"YYYY-MM-DD\";\r",
+									"pm.environment.set(\"today\", moment().format(dateTimeFormat));\r",
+									"pm.environment.set(\"tomorrow\", tomorrow.format(dateTimeFormat));\r",
+									"pm.environment.set(\"yesterday\", yesterday.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextWeek\", nextWeek.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextMonth\", nextMonth.format(dateTimeFormat));\r",
+									"pm.environment.set(\"nextQuarter\", nextQuarter.format(dateTimeFormat));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"value\": \"608387\",\r\n  \"accountNumberSize\": 8,\r\n  \"checksumLogic\": 1,\r\n  \"weightage\": \"1\",\r\n  \"isReachable\": true,\r\n  \"bic\": \"123456\",\r\n  \"isActive\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/sortcode",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"sortcode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sortcodes For Agency",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/sortcode",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"sortcode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sortcodes For All Agencies",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/sortcode",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"sortcode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify Sortcode For Agency",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{agency-service-url}}/agencies/{{agencyId}}/sortcode",
+							"host": [
+								"{{agency-service-url}}"
+							],
+							"path": [
+								"agencies",
+								"{{agencyId}}",
+								"sortcode"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="StrongKey">
+		<value>&#x7;&#x2;   $  RSA2 &#x4;  &#x1; &#x1; ÏÜmüç&#x1D;ôäçãÐÂ&#x19;å&#x4;“\Ès«&#xB;^˜&amp;v±*\&#x1C; ëw&#x7;	&#xC;Ï=óÙ&#x5;Â&#x14;›¨£*ÆN&lt;¿~7ôGS‡÷jÒ1þëÓLagYÉÚ&#x15;	&#x7;:ãx0}ÖÕ»Ð„&#x13;É„Ìï‹&#x2;Û&#x1B;|­C&#x1D;:¼!&#x16;xiƒûË‚*Gi&#x13;å&#x16;¿I?%&#x7;BJ&#x3;»&#xB;´‡y«9É¬ &#x1B;Ëy1Z¶.XÂR³-_KL¡û×zjéùŒë·¹=¤±Ë×ÂWK&#x8;ç&#x12;&#x18;Æ£8&#x3;nLˆÔ†ÐÀ.&#x12;&#x1F;åÞ÷ÖòXÄÕG~8¥XPO#ß7‡ÆAwÚó—&#x7;Ýç&lt;õGì·Ù0€&#x12;ùx¸}ù&#x1;ãÿÇ?Ä(Õ]µOú&#x1C;ï€&#x1D;lEXwö$Ï¥b=Ø,ZÍ‰W9Oõ_9ˆŠh&#x18;Åw“A™âŒdÅR°S&#x2;&#xC;ÅÏn!Š"À›RôF4&#x1D;¶ì¡©ýgEÖÐúµ=j8#|a&#x18;®!¸Ê&#x1B;lÖ&#x15;‡?T&#x1;½x&#x1;&#x1F;cÖ5ú&#x1B;(ßÝ&#x14;Ù®Ñ¸Ë
+ &#x17;J&#x18;&#xF;X&#x12;t­GÀAúüçL;ll;Q2ì)³¯áä¿2Y&#x3;Èh‘­[_ö&#x1A;²&#x17;åCÙ0ÝÿJO&#x15;ØUJÙrYð8ÔýL]?äXža&#xC;c0Êb&#x1C;ù‚º•$™
+œ&amp;¸&#x1B;£ì(ZýëƒP
+ÊÇ¨ßxa&#xB;P3¬xÓ¶
+£;Yè¾˜ì&amp;&#x16;i}&#x2;ÎÎg×,]š°.*7 Šp&#x8;&#xE;‡&#x1B;Î&#x2;ÝŸ&#x6;ÍV§”’=y/¼‰{Çã5”’øÕå×»*5&#x14;±—'N§*L_ù¨tÂ×&#xF;!•&#x1E;%çŠ:”®&#xB;=šó6&#xB;{êxe#~bª5‰ìîQ¶Dê©“–D9­8Ößœ¥&#xE;</value>
+	</data>
+	<data name="SecurityKey">
+		<value>xp-Ps/*8</value>
+	</data>
+</root>

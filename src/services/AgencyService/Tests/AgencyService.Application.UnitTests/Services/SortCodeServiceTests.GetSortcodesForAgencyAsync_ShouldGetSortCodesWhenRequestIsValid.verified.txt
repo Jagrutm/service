@@ -1,0 +1,8 @@
+﻿[
+  {
+    ChecksumLogic: Mod10,
+    Weightage: 1,
+    IsReachable: true,
+    IsActive: false
+  }
+]

@@ -1,0 +1,7 @@
+﻿[
+  {
+    FromDate: DateTime_1,
+    ToDate: DateTime_1,
+    ResponseCode: NextCalendarDay
+  }
+]

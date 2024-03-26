@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "agencyservice.api",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
+      "serviceActions": {
+        //"accountprocessservice.api": "StartDebugging",
+        "agencyservice.api": "StartDebugging",
+        "dynamodb": "StartWithoutDebugging",
+        "elasticsearch": "StartWithoutDebugging",
+        "kibana": "StartWithoutDebugging",
+        "rabbitmq": "StartWithoutDebugging"
+      }
+    }
+  }
+}

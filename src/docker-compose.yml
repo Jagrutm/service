@@ -1,0 +1,78 @@
+version: '4.12.0'
+
+services:
+
+  dynamodb:
+    image:  amazon/dynamodb-local
+    container_name: dynamodb-shared-api
+    hostname: dynamodb
+    restart: always
+    volumes:
+      -  ./my-dynamodb-data:/home/dynamodblocal/data
+    ports:
+      - 8000:8000
+    command: "-jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data/"
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: 'rabbitmq'
+    ports:
+        - 5672:5672
+        - 15672:15672
+    volumes:
+        - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+        - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+    networks:
+        - rabbitmq_go_net
+
+  elasticsearch:
+   container_name: elasticsearch
+   image: docker.elastic.co/elasticsearch/elasticsearch:7.16.3
+   ports:
+    - 9200:9200
+   volumes:
+    - elasticsearch-data:/usr/share/elasticsearch/data
+   environment:
+    - xpack.monitoring.enabled=true
+    - xpack.watcher.enabled=false
+    - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    - discovery.type=single-node
+   networks:
+    - elastic
+
+  kibana:
+   container_name: kibana
+   image: docker.elastic.co/kibana/kibana:7.16.3
+   ports:
+    - 5601:5601
+   depends_on:
+    - elasticsearch
+   environment:
+    - ELASTICSEARCH_URL=http://localhost:9200
+    - xpack.encryptedSavedObjects.encryptionKey=kibana--kibana--kibana--kibana--
+    - xpack.actions.whitelistedHosts=[*]
+    - xpack.actions.enabledActionTypes=[*]
+   networks:
+    - elastic
+
+  #accountprocessservice.api:
+  #  image: ${DOCKER_REGISTRY-}accountprocessservice-api
+  #  build:
+  #    context: .
+  #    dockerfile: services/AccountProcessService/AccountProcessService.Api/Dockerfile
+
+  agencyservice.api:
+    image: ${DOCKER_REGISTRY-}agencyservice-api
+    build:
+      context: .
+      dockerfile: services/agencyService/AgencyService.Api/Dockerfile
+
+networks:
+  elastic:
+    driver: bridge
+
+  rabbitmq_go_net:
+    driver: bridge
+
+volumes:
+  elasticsearch-data:

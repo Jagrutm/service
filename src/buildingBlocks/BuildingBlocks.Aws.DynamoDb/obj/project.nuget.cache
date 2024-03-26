@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "NDWFNxUH+wCOO6A2UKBBUL15INC3y73SOUwxylnfXVKv/rNIBRP1DC2KbxIf3Q3W7z3n4KVaHFtZtI3jqgmI6g==",
+  "success": true,
+  "projectFilePath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BuildingBlocks.Aws.DynamoDb\\BuildingBlocks.Aws.DynamoDb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\awssdk.core\\3.7.12.29\\awssdk.core.3.7.12.29.nupkg.sha512",
+    "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.4.7\\awssdk.dynamodbv2.3.7.4.7.nupkg.sha512",
+    "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.2\\awssdk.extensions.netcore.setup.3.7.2.nupkg.sha512",
+    "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!--Nuget package references-->
+  <ItemGroup>
+    <PackageReference Include="SqlKata" Version="2.3.7" />
+  </ItemGroup>
+
+  <!--Building blocks references-->
+  <ItemGroup>
+    <Compile Remove="Behaviours\AuthorizationBehaviour.cs" />
+    <Compile Remove="Behaviours\LoggingBehaviour.cs" />
+    <Compile Remove="Behaviours\PerformanceBehaviour.cs" />
+  </ItemGroup>
+
+  <!--Nuget package references-->
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="SqlKata" Version="2.3.7" />
+  </ItemGroup>
+
+  <!--Building blocks references-->
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.4.7" />
+    <PackageReference Include="SqlKata" Version="2.3.7" />
+  </ItemGroup>
+
+  <!--Building blocks references-->
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingBlocks.Core.Domain\BuildingBlocks.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <!--Internal project references-->
+  
+</Project>

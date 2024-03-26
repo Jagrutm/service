@@ -1,0 +1,12 @@
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.deps.json
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\bin\Debug\net6.0\EventBus.Messages.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.AssemblyReference.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfoInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.AssemblyInfo.cs
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.CoreCompileInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\refint\EventBus.Messages.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\EventBus.Messages\obj\Debug\net6.0\ref\EventBus.Messages.dll

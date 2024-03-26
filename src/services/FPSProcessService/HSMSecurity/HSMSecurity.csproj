@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CredECard.HSMSecurity</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Feature|AnyCPU'">
+    <OutputPath>bin\Feature\</OutputPath>
+    <Optimize>true</Optimize>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta|AnyCPU'">
+    <OutputPath>bin\Beta\</OutputPath>
+    <Optimize>true</Optimize>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|AnyCPU'">
+    <OutputPath>bin\Staging\</OutputPath>
+    <Optimize>true</Optimize>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Production|AnyCPU'">
+    <OutputPath>bin\Production\</OutputPath>
+    <Optimize>true</Optimize>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="BusinessService\CardData.cs" />
+    <Compile Remove="BusinessService\HSMCommon_Old.cs" />
+    <Compile Remove="BusinessService\HSMModUtil.cs" />
+    <Compile Remove="BusinessService\HSMResult.cs" />
+    <Compile Remove="BusinessService\StatusChangeServiceCaller.cs" />
+    <Compile Remove="DataService\ReadCardData.cs" />
+    <Compile Remove="DataService\WriteCardData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="HSMSecurity.csproj.old" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\buildingBlocks\BugReporting\BugReporting.csproj" />
+    <ProjectReference Include="..\..\..\buildingBlocks\CommonSetting\CommonSetting.csproj" />
+    <ProjectReference Include="..\..\..\buildingBlocks\Common\Common.csproj" />
+    <ProjectReference Include="..\LoggingSystem\LoggingSystem.csproj" />
+  </ItemGroup>
+</Project>

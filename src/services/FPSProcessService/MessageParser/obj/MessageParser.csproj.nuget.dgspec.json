@@ -1,0 +1,459 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\MessageParser\\MessageParser.csproj": {}
+  },
+  "projects": {
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BugReporting\\BugReporting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BugReporting\\BugReporting.csproj",
+        "projectName": "BugReporting",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BugReporting\\BugReporting.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BugReporting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj"
+              },
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj",
+        "projectName": "CommonSetting",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "SoapFormatter": {
+              "target": "Package",
+              "version": "[1.0.11, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CredEncryption\\CredEncryption.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CredEncryption\\CredEncryption.csproj",
+        "projectName": "CredEncryption",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CredEncryption\\CredEncryption.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CredEncryption\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BugReporting\\BugReporting.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BugReporting\\BugReporting.csproj"
+              },
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj"
+              },
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.Security.Cryptography.Pkcs": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\LoggingSystem\\LoggingSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\LoggingSystem\\LoggingSystem.csproj",
+        "projectName": "LoggingSystem",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\LoggingSystem\\LoggingSystem.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\LoggingSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BugReporting\\BugReporting.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BugReporting\\BugReporting.csproj"
+              },
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CommonSetting\\CommonSetting.csproj"
+              },
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj"
+              },
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CredEncryption\\CredEncryption.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\CredEncryption\\CredEncryption.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Diagnostics.EventLog": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\MessageParser\\MessageParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\MessageParser\\MessageParser.csproj",
+        "projectName": "MastercardParser",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\MessageParser\\MessageParser.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\MessageParser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\Common\\Common.csproj"
+              },
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\LoggingSystem\\LoggingSystem.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\FPSProcessService\\LoggingSystem\\LoggingSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "AgencyService.BatchJobs(GenerateMaintenanceDetails)": {
+      "commandName": "Project",
+      "commandLineArgs": "generate-maintenance --agencyId=23836f8b-ba9e-443f-808c-00edf09054ce --qualifiedAcceptanceCode=SameDay"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentMigrator.Abstractions" Version="3.3.2" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.4.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+    <PackageReference Include="SqlKata" Version="2.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingBlocks.Application\BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\BuildingBlocks.Aws.DynamoDb\BuildingBlocks.Aws.DynamoDb.csproj" />
+    <ProjectReference Include="..\BuildingBlocks.Core.Domain\BuildingBlocks.Core.Domain.csproj" />
+    <ProjectReference Include="..\BuildingBlocks.Dapper\BuildingBlocks.Dapper.csproj" />
+  </ItemGroup>
+
+</Project>

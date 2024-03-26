@@ -1,0 +1,16 @@
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\bin\Debug\netstandard2.1\Common.deps.json
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\bin\Debug\netstandard2.1\Common.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\bin\Debug\netstandard2.1\Common.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\bin\Debug\netstandard2.1\gu\Common.resources.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\Common.csproj.AssemblyReference.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\CredECard.Common.BusinessService.CommonMessage.resources
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\Common.CommonResource.resources
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\CredECard.Common.BusinessService.FieldErrorMessage.resources
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\CredECard.Common.Resource.Messages.resources
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\CredECard.Common.Resource.Messages.gu.resources
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\Common.csproj.GenerateResource.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\Common.csproj.CoreCompileInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\gu\Common.resources.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\Common.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\Common\obj\Debug\netstandard2.1\Common.pdb

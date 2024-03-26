@@ -1,0 +1,9 @@
+﻿[
+  {
+    AgencyId: Guid_1,
+    AgencyName: AgencyName1,
+    RegistrationDate: DateTime_1,
+    AgencyCode: AgencyCode1,
+    IsActive: true
+  }
+]

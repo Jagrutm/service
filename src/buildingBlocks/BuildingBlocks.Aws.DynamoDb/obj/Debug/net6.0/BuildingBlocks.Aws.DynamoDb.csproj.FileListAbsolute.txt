@@ -1,0 +1,12 @@
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\bin\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.deps.json
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\bin\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\bin\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.csproj.AssemblyReference.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.AssemblyInfoInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.AssemblyInfo.cs
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.csproj.CoreCompileInputs.cache
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\refint\BuildingBlocks.Aws.DynamoDb.dll
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\BuildingBlocks.Aws.DynamoDb.pdb
+C:\ContisGit\BankingMicroservice\Banking_services\src\buildingBlocks\BuildingBlocks.Aws.DynamoDb\obj\Debug\net6.0\ref\BuildingBlocks.Aws.DynamoDb.dll

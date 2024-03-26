@@ -1,0 +1,178 @@
+name: dockercompose9718636070409992826
+services:
+  agencyservice.api:
+    build:
+      context: C:\ContisGit\BankingMicroservice\Banking_services\src
+      dockerfile: services/agencyService/AgencyService.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: AgencyService.Api
+      target: base
+    container_name: agencyservice.api
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ConnectionStrings:DefaultConnection: Server=localhost/SQLEXPRESS;Database=AgencyDB;Trusted_Connection=True;MultipleActiveResultSets=true;
+      DOTNET_RUNNING_IN_CONTAINER: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      ElasticConfiguration:Uri: http://localhost:9200
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: agencyservice-api:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  ""'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6101"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\ContisGit\BankingMicroservice\Banking_services\src\services\agencyService\AgencyService.Api
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\ContisGit\BankingMicroservice\Banking_services\src
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\jagrut.bhavsar\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\jagrut.bhavsar\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\jagrut.bhavsar\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\jagrut.bhavsar\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+  dynamodb:
+    command:
+    - -jar
+    - DynamoDBLocal.jar
+    - -sharedDb
+    - -dbPath
+    - /home/dynamodblocal/data/
+    container_name: dynamodb-shared-api
+    hostname: dynamodb
+    image: amazon/dynamodb-local
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8000
+      published: "8000"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: C:\ContisGit\BankingMicroservice\Banking_services\src\my-dynamodb-data
+      target: /home/dynamodblocal/data
+      bind:
+        create_host_path: true
+  elasticsearch:
+    container_name: elasticsearch
+    environment:
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
+      discovery.type: single-node
+      xpack.monitoring.enabled: "true"
+      xpack.watcher.enabled: "false"
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.16.3
+    networks:
+      elastic: null
+    ports:
+    - mode: ingress
+      target: 9200
+      published: "9200"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: elasticsearch-data
+      target: /usr/share/elasticsearch/data
+      volume: {}
+  kibana:
+    container_name: kibana
+    depends_on:
+      elasticsearch:
+        condition: service_started
+    environment:
+      ELASTICSEARCH_URL: http://localhost:9200
+      xpack.actions.enabledActionTypes: '[*]'
+      xpack.actions.whitelistedHosts: '[*]'
+      xpack.encryptedSavedObjects.encryptionKey: kibana--kibana--kibana--kibana--
+    image: docker.elastic.co/kibana/kibana:7.16.3
+    networks:
+      elastic: null
+    ports:
+    - mode: ingress
+      target: 5601
+      published: "5601"
+      protocol: tcp
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    networks:
+      rabbitmq_go_net: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\jagrut.bhavsar\.docker-conf\rabbitmq\data
+      target: /var/lib/rabbitmq
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\jagrut.bhavsar\.docker-conf\rabbitmq\log
+      target: /var/log/rabbitmq
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose9718636070409992826_default
+  elastic:
+    name: dockercompose9718636070409992826_elastic
+    driver: bridge
+  rabbitmq_go_net:
+    name: dockercompose9718636070409992826_rabbitmq_go_net
+    driver: bridge
+volumes:
+  elasticsearch-data:
+    name: dockercompose9718636070409992826_elasticsearch-data

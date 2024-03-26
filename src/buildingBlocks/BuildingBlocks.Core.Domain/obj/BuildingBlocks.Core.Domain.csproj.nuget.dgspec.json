@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj",
+        "projectName": "BuildingBlocks.Core.Domain",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BuildingBlocks.Core.Domain\\BuildingBlocks.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\BuildingBlocks.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+              },
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\AccountService\\AccountService.Application\\AccountService.Application.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\AccountService\\AccountService.Application\\AccountService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.4.7, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectName": "EventBus.Messages",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\EventBus.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\AccountService\\AccountService.Application\\AccountService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\AccountService\\AccountService.Application\\AccountService.Application.csproj",
+        "projectName": "AccountService.Application",
+        "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\AccountService\\AccountService.Application\\AccountService.Application.csproj",
+        "packagesPath": "C:\\Users\\jagrut.bhavsar\\.nuget\\packages\\",
+        "outputPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\services\\AccountService\\AccountService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jagrut.bhavsar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "C:\\ContisGit\\BankingMicroservice\\Banking_services\\src\\buildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
