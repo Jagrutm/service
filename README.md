@@ -1,4 +1,4 @@
-# Contis by Solaris Banking Project Microservice Applications
+# Microservice Applications
 
 Welcome to the Banking Project Microservice application repository. This repository contains the server side application source code for the banking related operation.
 
@@ -17,7 +17,7 @@ Welcome to the Banking Project Microservice application repository. This reposit
 
 ## Microservice Project Structure
 
-Microservice Project Structure built using Onion architecture. To get overview of different layers in microservice project refer [Microservice Project Structure](https://dev.azure.com/ContisTech/Cardif_Glassgow/_git/Banking_services) Wiki page.
+Microservice Project Structure built using Onion architecture. To get overview of different layers in microservice project refer [Microservice Project Structure]
 
 ## Development
 
